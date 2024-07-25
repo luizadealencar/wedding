@@ -31,12 +31,12 @@ body {
 .left-name p,
 .right-name p {
   margin: 5px;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .container h1 {
   margin: 5px;
-  font-size: 100px;
+  font-size: 60px;
 }
 
 .countdown-container {
@@ -44,13 +44,13 @@ body {
 }
 
 #countdown {
-  font-size: 36px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
 }
 
-.text p {
-  font-size: 25px;
+.text p, .festa p {
+  font-size: 18px;
   margin: 15px;
 }
 
@@ -108,33 +108,9 @@ nav ul li a:hover {
   background-color: #ddd;
 }
 
-.imagens {
-  margin: auto;
-  overflow: hidden;
-  background-color: #e9d1bb;
-}
-
-.slides-list {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  transition: transform 0.5s ease;
-}
-
-.slide {
-  flex: 0 0 100%;
-}
-
-.slide img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  margin: 0 auto;
-}
-
 .text h1,
-.imagens h1 {
-  font-size: 50px;
+.festa h1 {
+  font-size: 40px;
 }
 
 .menu-toggle {
@@ -196,6 +172,53 @@ input:checked ~ label .hamburguer:after {
   transform: rotate(90deg);
   bottom: 0;
 }
+
+#nossa-historia {
+  display: flex; /* Cria um container flexbox */
+  justify-content: space-between; /* Distribui os elementos horizontalmente */
+  align-items: center; /* Alinha os elementos verticalmente no centro */
+  padding: 20px; /* Adiciona um espaço interno */
+}
+
+#nossa-historia h1, .imagens h1 {
+  text-align: right; /* Alinha o título à direita */
+}
+
+.text {
+  text-align: center; /* Centraliza o título */
+  display: flex;
+  flex-direction: column; /* Empilha os elementos em uma coluna */
+  align-items: center; /* Centraliza os elementos na coluna */
+  background-color: #e9d1bb;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between; /* Distribui os elementos horizontalmente com espaço */
+  margin: 0 auto; /* Centraliza a área de conteúdo horizontalmente */
+  align-items: center;
+}
+
+.content img {
+  max-width: 30%; /* Define a largura máxima da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.content2 {
+  display: flex;
+  justify-content: space-between; /* Distribui os elementos horizontalmente com espaço */
+  margin: 0 auto; /* Centraliza a área de conteúdo horizontalmente */
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.content2 img {
+  max-width: 30%; /* Define a largura máxima da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
   body {
@@ -275,7 +298,7 @@ input:checked ~ label .hamburguer:after {
   }
 
   .text p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin: 10px 0;
   }
