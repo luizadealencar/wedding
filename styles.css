@@ -1,4 +1,4 @@
-body {
+body{
   margin: 0;
   padding: 0;
   font-family: "Cormorant Garamond", serif;
@@ -83,7 +83,7 @@ nav::before {
 }
 
 .container {
-  margin: 60px auto 0 auto;
+  margin: 60px auto 8px auto;
 }
 
 nav ul {
@@ -217,8 +217,62 @@ input:checked ~ label .hamburguer:after {
   height: auto; /* Mantém a proporção da imagem */
 }
 
+.festa {
+  /* Outras propriedades CSS da sua div */
+  text-align: center; /* Centraliza o conteúdo da div */
+}
 
+.botao-container {
+  display: inline-block; /* Torna o container um bloco inline para centralizar */
+  text-align: center;
+  cursor: pointer; /* Muda o cursor para uma mãozinha */
+  font-family: "Cormorant Garamond", serif;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #e9d1bb;
+}
 
+.botao{
+  text-decoration: none; /* Remove a linha abaixo do link */
+  color: #333;
+}
+
+.lista-presente{
+  margin: 0;
+}
+
+.container h2{
+  margin: 8px 0;  
+}
+
+.lista h4{
+  margin: 8px 0;
+}
+
+.lista {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lista ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.lista li {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+
+}
 
 @media only screen and (max-width: 600px) {
   body {

@@ -65,4 +65,3 @@ function countdown() {
       menu.classList.toggle('open');
     });
   });
-  
