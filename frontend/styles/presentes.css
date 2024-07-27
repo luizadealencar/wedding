@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .container {
@@ -31,6 +32,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .lista h4 {
@@ -102,14 +104,33 @@ h2 {
   max-width: 100%;
 }
 
+.lista-presentes p{
+  text-align: justify;
+  margin: 0;
+  font-weight: bold;
+}
+
+.payment-info {
+  margin-top: 20px;
+}
+.qr-code {
+  margin-bottom: 20px;
+}
+.qr-code img {
+  width: 150px;
+  height: 150px;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     align-items: flex-start;
+    
+  overflow-x: hidden;
   }
 
   .container {
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .lista li {

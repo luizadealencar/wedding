@@ -1,42 +1,356 @@
 {
-    "cozinha": [
-      {"nome": "Escorredor louça", "imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lqjg9y6pqsknfb", "preco": "R$ 179,90", "link": "https://br.shp.ee/6GFXDDG"},
-      {"nome": "Panos de Prato", "imagem": "https://down-br.img.susercontent.com/file/d16aa88fd6792bbd5dc029eb59b20d6e", "preco": "R$ 17,00", "link": "https://br.shp.ee/ythmqfD"},
-      {"nome": "Potes", "imagem": "https://m.media-amazon.com/images/I/519ZH-Fhc1L._AC_SL1000_.jpg", "preco": "R$ 112,00", "link": "https://www.amazon.com.br/Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJL4B9H/ref=asc_df_B09XJL4B9H/?tag=googleshopp06-20&linkCode=df0&hvadid=379725468927&hvpos=&hvnetw=g&hvrand=16485426212896812966&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1662902312395&psc=1&mcid=93036d57993a35b7af417811b1a3528a"},
-      {"nome": "Liquidificador, Batedeira e Espremedor", "imagem": "https://a-static.mlcdn.com.br/350x350/kit-kt-105-b-mondial-com-liquidificador-batedeira-espremedor/magazineluiza/023004300/ffa0a02e3680c582523c59da0e9d085c.jpg", "preco": "R$ 258,24", "link": "https://m.magazineluiza.com.br/kit-kt-105-b-mondial-com-liquidificador-batedeira-espremedor/p/023004300/ep/elkp/?&force=4&utm_content=none_roa_rem_geral_car_tod_1p&utm_source=google&utm_medium=cpc&utm_term=&seller_id=magazineluiza&utm_source=google&utm_medium=pla&utm_term=&utm_campaign=&partner_id=76848&gclsrc=aw.ds&gclid=CjwKCAjwko21BhAPEiwAwfaQCM7PZSpJfkzplvxU-E3FS972onx9AcgcgqBnuq_MzBWlLnOkcAzyERoCnzwQAvD_BwE"},
-      {"nome": "Airfryer", "imagem": "https://m.media-amazon.com/images/I/71zeBuMlz2L.__AC_SX300_SY300_QL70_ML2_.jpg", "preco": "R$ 272,00", "link": "https://www.amazon.com.br/Fritadeira-Fryer-Litros-AFN-40-BI-Mondial/dp/B093M9941C/ref=asc_df_B093M9941C/?tag=googleshopp06-20&linkCode=df0&hvadid=453871395001&hvpos=&hvnetw=g&hvrand=571644497190921375&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1346516362250&psc=1&mcid=3d0c0b13c80637adb72d10c906155410"},
-      {"nome": "Chaleira elétrica", "imagem": "https://m.media-amazon.com/images/I/51Od47eZPcL._AC_SL1199_.jpg", "preco": "R$ 79,99", "link": "https://www.amazon.com.br/Chaleira-El%C3%A9trica-Inox-Desligamento-Automatico/dp/B0D2S1VBQP/ref=asc_df_B0D2S1VBQP/?tag=googleshopp06-20&linkCode=df0&hvadid=676104128623&hvpos=&hvnetw=g&hvrand=10008948648782935821&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-2326353156234&psc=1&mcid=01eee6af5257340fa63acd3e3b4cca04"},
-      {"nome": "Torradeira", "imagem": "https://m.media-amazon.com/images/I/71GhknT3uuL.__AC_SY300_SX300_QL70_ML2_.jpg", "preco": "R$ 70,00", "link": "https://www.amazon.com.br/Tostador-p%C3%A3es-Mondial-Pratic-127V/dp/B09GHWRPVW/ref=asc_df_B09GHWRPVW/?tag=googleshopp06-20&linkCode=df0&hvadid=379742481979&hvpos=&hvnetw=g&hvrand=2806599669734146639&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1826782719067&psc=1&mcid=fbe7cdf33ba33f88897d78fee061ce20"},
-      {"nome": "Sanduicheira", "imagem": "https://a-static.mlcdn.com.br/350x350/sanduicheira-mondial-fast-grill-s-12-preta-750w-antiaderente/magazineluiza/236687800/2884bc8da29d005013794cba3e882204.jpg", "preco": "R$ 68,50", "link": "https://m.magazineluiza.com.br/sanduicheira-mondial-fast-grill-s-12-preta-750w-antiaderente/p/236687800/ep/gset/?&force=4&utm_content=none_roa_ven_geral_pla_tod_1p&utm_source=google&utm_medium=cpc&seller_id=magazineluiza&utm_source=google&utm_medium=pla&utm_term=&utm_campaign=&partner_id=76848&gclsrc=aw.ds&gclid=CjwKCAjwko21BhAPEiwAwfaQCCioKPf5CuTxSnyoYJYloeAPPMpSnKC-5TEjyXIjpgA2I-E0SiZOuxoCtgUQAvD_BwE"},
-      {"nome": "Tábuas de corte", "imagem": "https://m.media-amazon.com/images/I/61OqOpSAKNL._AC_SL1500_.jpg", "preco": "R$ 40,00", "link": "https://www.amazon.com.br/Tabua-Bambu-Madeira-Churrasco-Grande/dp/B09PZMCZDN/ref=asc_df_B09PZMCZDN/?tag=googleshopp06-20&linkCode=df0&hvadid=379787267915&hvpos=&hvnetw=g&hvrand=17878630849295054242&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1677722273187&psc=1&mcid=8ca43b49ee7f3f93b09e9ca46a702db1"},
-      {"nome": "Ralador", "imagem": "https://m.media-amazon.com/images/I/519qV-OxWuS._AC_SL1000_.jpg", "preco": "R$ 25,00", "link": "https://www.amazon.com.br/Ralador-Faces-Top-Pratic-Brinox/dp/B08PHZT2PC/ref=asc_df_B08PHZT2PC/?tag=googleshopp06-20&linkCode=df0&hvadid=379787267915&hvpos=&hvnetw=g&hvrand=12004492220436014843&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1394300798158&psc=1&mcid=2f5d2ea2cedc327bb7d4336e383e2801"},
-      {"nome": "Kit de Talheres Grandes", "imagem": "https://m.media-amazon.com/images/I/6177-pLgREL._AC_SX679_.jpg", "preco": "R$ 15,00", "link": "https://www.amazon.com.br/Conjunto-Utens%C3%ADlio-Cozinha-Inox-Pe%C3%A7as/dp/B08DJ79673/ref=asc_df_B08DJ79673/?tag=googleshopp06-20&linkCode=df0&hvadid=379715128762&hvpos=&hvnetw=g&hvrand=16186363769883157795&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1188073438264&psc=1&mcid=42197311fb293c01b655b8b95bb3eb05"},
-      {"nome": "Bowls", "imagem": "https://m.media-amazon.com/images/I/41lbW4ezYHL._AC_SL1000_.jpg", "preco": "R$ 30,00", "link": "https://www.amazon.com.br/dp/B09BBKG7R3/ref=sspa_mw_detail_0?ie=UTF8&psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9waG9uZV9kZXRhaWwp13NParams"},
-      {"nome": "Formas para bolos e assados", "imagem": "https://down-br.img.susercontent.com/file/6bda073aeda98c731a062a2d0a5ac242", "preco": "R$ 20,00", "link": "https://br.shp.ee/vPXBdBx"},
-      {"nome": "Jarra", "imagem": "https://m.media-amazon.com/images/I/31LbG+ffwsS._AC_SL1181_.jpg", "preco": "R$ 20,00", "link": "https://www.amazon.com.br/Jarra-Coza-10303-0008-Preto/dp/B077M4L6MC/ref=asc_df_B077M4L6MC/?tag=googleshopp06-20&linkCode=df0&hvadid=379787388467&hvpos=&hvnetw=g&hvrand=3277345466106291681&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-892703495039&psc=1&mcid=a8c634f2640231f4b33b11ce89248c42"},
-      {"nome": "Jarra de vidro", "imagem": "https://m.media-amazon.com/images/I/61JKxZME-JL._AC_SL1000_.jpg", "preco": "R$ 25,00", "link": "https://www.amazon.com.br/Jarra-Vidro-Litro-para-%C3%81gua/dp/B0CJP7CFPM/ref=asc_df_B0CJP7CFPM/?tag=googleshopp06-20&linkCode=df0&hvadid=647507659577&hvpos=&hvnetw=g&hvrand=3277345466106291681&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-2311632081277&psc=1&mcid=34d39bf4370a3ef5833b940553b14faf"},
-      {"nome": "Potes de vidro", "imagem": "https://m.media-amazon.com/images/I/51LTe8WOpUL._AC_SL1000_.jpg", "preco": "R$ 30,00", "link": "https://www.amazon.com.br/Herm%C3%A9ticos-Mantimentos-Organiza%C3%A7%C3%A3o-Resistente-Microondas/dp/B0CSR6SJCK/ref=asc_df_B0CSR6SJCK/?tag=googleshopp06-20&linkCode=df0&hvadid=675291522131&hvpos=&hvnetw=g&hvrand=2539623318335633514&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-2283824768040&psc=1&mcid=8221f16c1aa73827b34f97ba730a42d0"},
-      {"nome": "Mantimentos", "imagem": "https://m.media-amazon.com/images/I/61Bj1gJ64JL._AC_SL1000_.jpg", "preco": "R$ 50,00", "link": "https://www.amazon.com.br/Potes-vidro-mantimentos-tampa-bambu/dp/B09JDZ5LW6/ref=asc_df_B09JDZ5LW6/?tag=googleshopp06-20&linkCode=df0&hvadid=549955600079&hvpos=&hvnetw=g&hvrand=15523279066118406644&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1645411448786&psc=1&mcid=2cebb35f201c398087fd276defdfa441"},
-      {"nome": "Assadeira de vidro", "imagem": "https://m.media-amazon.com/images/I/51X6C1aXaxL._AC_SL1000_.jpg", "preco": "R$ 60,00", "link": "https://www.amazon.com.br/Assadeiras-Marinex-Pe%C3%A7as-Tampa-Vidro/dp/B082M6W4VX/ref=asc_df_B082M6W4VX/?tag=googleshopp06-20&linkCode=df0&hvadid=379698488541&hvpos=&hvnetw=g&hvrand=15523279066118406644&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-896953145889&psc=1&mcid=2cd9f06494cc33a3a441149ff664f158"},
-      {"nome": "Jogo de Tempero 1", "imagem": "https://m.media-amazon.com/images/I/41mJsR26zyL.__AC_SX300_SY300_QL70_ML2_.jpg", "preco": "R$ 70,00", "link": "https://www.amazon.com.br/Porta-Temperos-Girat%C3%B3rio-Dosadora-Premium/dp/B0D5MT7FTC/ref=asc_df_B0D5MT7FTC/?tag=googleshopp06-20&linkCode=df0&hvadid=700534818900&hvpos=&hvnetw=g&hvrand=6735293088619660188&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9196955&hvtargid=pla-2318987134301&psc=1&mcid=46cc034033b83ff7ad9f6bc48ab2eeec"},
-      {"nome": "Jogo de Tempero 2", "imagem": "https://m.media-amazon.com/images/I/71BGFCcQkeL._AC_SL1024_.jpg", "preco": "R$ 80,00", "link": "https://www.amazon.com.br/Porta-Temperos-Condimentos-Cozinha-tempero/dp/B0CV1ZNNTC/ref=asc_df_B0CV1ZNNTC/?tag=googleshopp06-20&linkCode=df0&hvadid=676104128623&hvpos=&hvnetw=g&hvrand=6735293088619660188&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9196955&hvtargid=pla-2282148249013&psc=1&mcid=cfa71b8457cc3c5099c347a50e79147d"},
-      {"nome": "Jogo de Sobremesa", "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rcct-lrg5uh5rv9pl95", "preco": "R$ 80,00", "link": "https://br.shp.ee/EagZQxa"},
-      {"nome": "Jogo de Copos", "imagem": "https://m.media-amazon.com/images/I/61DPhpnqW+L._AC_SX679_.jpg", "preco": "R$ 80,00", "link": "https://www.amazon.com.br/Jogo-Copos-Nadir-Dubai-Incolor/dp/B07CMSXPW1/ref=asc_df_B07CMSXPW1/?tag=googleshopp06-20&linkCode=df0&hvadid=647392279416&hvpos=&hvnetw=g&hvrand=6432332989169778125&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9196955&hvtargid=pla-2274306420693&psc=1&mcid=639ab92484d8325f953f87da60a669dd"},
-      {"nome": "Jogo de Talheres", "imagem": "https://down-br.img.susercontent.com/file/26eb395e4032dfc2a5703eeb30f6bce6", "preco": "R$ 80,00", "link": "https://br.shp.ee/zoY5gvm"}
-    ],
-    "quarto": [
-      {"nome": "Ferro de passar", "imagem": "https://m.media-amazon.com/images/I/71-22winkXL._AC_SL1500_.jpg", "preco": "R$ 86,17", "link": "https://www.amazon.com.br/Ferro-Passar-Mondial-F-32-2-Branco/dp/B076HBGCFH/ref=asc_df_B076HBGCFH/?tag=googleshopp00-20&linkCode=df0&hvadid=379773078479&hvpos=&hvnetw=g&hvrand=10582732190013767314&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-812087274451&psc=1&mcid=369d93591b353ac6a6f1541e68e821c2"},
-      {"nome": "Jogo de Lençol e Fronha para Cama Queen Casal", "imagem": "https://m.media-amazon.com/images/I/41jqx0BTnGL._AC_SX679_.jpg", "preco": "R$ 150,00", "link": "https://www.amazon.com.br/Queen-Malha-El%C3%A1stico-Algod%C3%A3o-Marinho/dp/B0D5NQKR7X/ref=asc_df_B0D5NQKR7X/?tag=googleshopp00-20&linkCode=df0&hvadid=700607358925&hvpos=&hvnetw=g&hvrand=2447322153523985436&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-2317323470113&mcid=a20b1847083e32c5b32cf7362ebd309c&th=1"},
-      {"nome": "Edredom ou colcha para cama queen", "imagem": "url_da_imagem", "preco": "R$ 200,00", "link": "url_do_link"},
-      {"nome": "Cabides", "imagem": "url_da_imagem", "preco": "R$ 30,00", "link": "url_do_link"}
-    ],
-    "banheiro": [
-      {"nome": "Toalhas de mão/rosto", "imagem": "url_da_imagem", "preco": "R$ 50,00", "link": "url_do_link"},
-      {"nome": "Toalhas de corpo", "imagem": "url_da_imagem", "preco": "R$ 70,00", "link": "url_do_link"},
-      {"nome": "Cesto de roupa suja", "imagem": "url_da_imagem", "preco": "R$ 90,00", "link": "url_do_link"},
-      {"nome": "Lixeira inox", "imagem": "url_da_imagem", "preco": "R$ 100,00", "link": "url_do_link"},
-      {"nome": "Tapete De Banheiro Antiderrapante", "imagem": "url_da_imagem", "preco": "R$ 40,00", "link": "url_do_link"},
-      {"nome": "Kit de Banheiro", "imagem": "url_da_imagem", "preco": "R$ 80,00", "link": "url_do_link"}
-    ]
-  }
-  
+  "cozinha": [
+    {
+      "nome": "Escorredor louça",
+      "imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lqjg9y6pqsknfb",
+      "preco": "R$ 179,90",
+      "link": "https://br.shp.ee/6GFXDDG"
+    },
+    {
+      "nome": "Panos de Prato",
+      "imagem": "https://m.media-amazon.com/images/I/81uRQZsPMlL._AC_SX569_.jpg",
+      "preco": "R$ 27,20",
+      "link": "https://www.amazon.com.br/Jogo-Pano-Teka-Cinza-Branco/dp/B08YFC54ND/ref=asc_df_B08YFC54ND/?tag=googleshopp00-20&linkCode=df0&hvadid=379720496535&hvpos=&hvnetw=g&hvrand=1278510975708241439&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-1376694013829&psc=1&mcid=13e8c7ab75de3c66b670551f1a7a9d7f"
+    },
+    {
+      "nome": "Potes",
+      "imagem": "https://m.media-amazon.com/images/I/31vjI1OtEmL._AC_SX679_.jpg",
+      "preco": "R$ 5,90",
+      "link": "https://www.amazon.com.br/Pote-650ml-Redondo-Plas%C3%BAtil-Verde/dp/B07DKZ7SBQ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.FPt5S6_x2-yiNTwIVP8BvhPbMB70tVI0WuorKM3gp9Ltu5OFos9rw3-BHj1pa8lYr_E3Sj6jOjFhMtzBdppp0ATAVYlXbzWZZxLtsrmZydb4eF3JyzpJuO1q8Q0KIpryI_k088YDnv3tq7oOIm25cJnFPJIKRdmHCHucimmZdhQy_OvfO6hM1aAzi7Fg_XnUsciMUymAE7ELXJSxoAT7lGafGOzRLgf9XEe0fZ0uK6qi9dsYiDef8cV_Ad_NlCBtdgjsFbUGRFVtEZdJjvJopfRvYOspADI8seKWf7xZYLI.CyEgAqUrfWxvWpDb12hB-oA3qAnmxc-n69PejpjoNQ0&dib_tag=se&keywords=potes+de+cozinha&qid=1722095710&sr=8-8"
+    },
+    {
+      "nome": "Liquidificador",
+      "imagem": "https://m.media-amazon.com/images/I/81s9CRAW+9L._AC_SY879_.jpg",
+      "preco": "R$ 95,90",
+      "link": "https://www.amazon.com.br/Liquidificador-Mondial-L-99-FB-127V/dp/B07QKN5NF1/ref=pd_rhf_dp_s_pd_crcbs_d_sccl_1_2/139-9634118-8561466?pd_rd_w=xUHNW&content-id=amzn1.sym.aef4fdbb-350a-48f6-a7d5-3c838de81164&pf_rd_p=aef4fdbb-350a-48f6-a7d5-3c838de81164&pf_rd_r=X2DTZPV511ARZN7T5STY&pd_rd_wg=bJGcb&pd_rd_r=0c579521-efb7-48a0-828e-bb3ecaf04c0d&pd_rd_i=B07QKN5NF1&psc=1"
+    },
+    {
+      "nome": "Airfryer",
+      "imagem": "https://m.media-amazon.com/images/I/71zeBuMlz2L._AC_SY879_.jpg",
+      "preco": "R$ 272,00",
+      "link": "https://www.amazon.com.br/Fritadeira-Fryer-Litros-AFN-40-BI-Mondial/dp/B093M9941C/ref=sr_1_5?crid=1A7TI3RFF7JIC&dib=eyJ2IjoiMSJ9.SOqVXjqNjikH1Th2i7h38au-aesE3DVmdI1TKH1xQEKSnBfMsy-UXn5wx9sXsWoi4g3Z1oXSfKlktXiCxL-ULj1x3nQVBnXz8bMgp9-VcizCSaphbHvV0FyRMuS87TFSDKGJU3AW_oZeDH2d1EXtlxweR10nT3MXM049a85znNgFNBWMBDnFeUF8V0xsmDGKaP0lIqlpP5sUt2RupHV3ah06uzkSLVa53YZ13foebEfFpbAuDqezwG9fcfsK_fgNPlPs1vf03Sp6nBARAbYtHFlyqYA9rX0F0buQ-EDcn74.8vsq4Vi0up7n2_hhKoQeFOgsufrPI_ARj4ljp-bUbuY&dib_tag=se&keywords=air+fryer+220v&qid=1722099974&sprefix=air+220v%2Caps%2C348&sr=8-5&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+    },
+    {
+      "nome": "Chaleira elétrica",
+      "imagem": "https://m.media-amazon.com/images/I/51Od47eZPcL._AC_SL1199_.jpg",
+      "preco": "R$ 79,99",
+      "link": "https://www.amazon.com.br/Chaleira-El%C3%A9trica-Inox-Desligamento-Automatico/dp/B0D2S1VBQP/ref=asc_df_B0D2S1VBQP/?tag=googleshopp06-20&linkCode=df0&hvadid=676104128623&hvpos=&hvnetw=g&hvrand=10008948648782935821&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-2326353156234&psc=1&mcid=01eee6af5257340fa63acd3e3b4cca04"
+    },
+    {
+      "nome": "Torradeira",
+      "imagem": "https://m.media-amazon.com/images/I/615kEEX7lTL._AC_SX679_.jpg",
+      "preco": "R$ 119,90",
+      "link": "https://www.amazon.com.br/Britania-BTR01P-Torradeira-Btr01p-220v/dp/B08CTP9KPT/ref=sr_1_4?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2PZZPK24CPCQT&dib=eyJ2IjoiMSJ9.WQaObjuLdFsBwyxVlnP5Wj0v3Tm99IRx9gFqvG4gkPwtWHxwVO1XZ4LEeF1tQP2e4Wb-iVrlK7yx4duxiZWJfYzGgZTG7Bf-vYj6cLMnGHdqhn5Imjt4NExvOtubIVWMEGyJ5QReD0Kom-qUAXXakrCT9njCxK0OxAA1pX6uJagTwphppriSeP6w4Vsd4SkVmPxoEk6W76L75AmaJbA-BPHO-bi9eHt16hQpZpYlNcflKVgp3lUiDkYiuvuL4zrISRsTQHDwp_WFVOrt31R5--PZ8h8_1vDK3_0i93G4DBg.3tFi558EKPyq4bJhdTsIIsGF5YIu73ZNn8dT422h-U8&dib_tag=se&keywords=torradeira+220v&qid=1722100039&sprefix=torradeira+220v%2Caps%2C307&sr=8-4&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
+    },
+    {
+      "nome": "Sanduicheira",
+      "imagem": "https://m.media-amazon.com/images/I/61NBFYr6KmL._AC_SX679_.jpg",
+      "preco": "R$ 74,96",
+      "link": "https://www.amazon.com.br/Multilaser-CE044-Sanduicheira-Grill-Gourmet/dp/B07CKKPBBQ/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15FDRDQZ7LUXC&dib=eyJ2IjoiMSJ9.KihdANhnlLZIqRk2NMn0LlXOCZaNGQoIgXDerY2KmRmH8CNqFOInwrY4EsLgI8d0VoQ-MozuHb9EF5ZCYrVRJ30DQniNWFt1bE03ni0-5I1hlwi5wA8r7WRfsEUFqdh_gwpLo1cOFFQeWyCHjBRX4TINij5rGDTcMXHXEStz8o1fJyx7Fo_gwpZeOi-0pLiXJE5oBIckMOBd_xl2OZhPjEcs8Bb_NhzA6mUsN4oudAPHczH5xsuKcvmIrVqmnIqbs35q6C3--5eGtwWDd10yLX64DOoNVlp0I76MYXxVjSM._HnV9JOIQ6G15wyuX1nebpu1A1-4B-7-uidUVXL34Dg&dib_tag=se&keywords=sanduicheira%2B220v&qid=1722100123&sprefix=sanduicheira%2B220v%2Caps%2C263&sr=8-5&th=1"
+    },
+    {
+      "nome": "Tábuas de corte",
+      "imagem": "https://m.media-amazon.com/images/I/61OqOpSAKNL._AC_SL1500_.jpg",
+      "preco": "R$ 40,00",
+      "link": "https://www.amazon.com.br/Tabua-Bambu-Madeira-Churrasco-Grande/dp/B09PZMCZDN/ref=asc_df_B09PZMCZDN/?tag=googleshopp06-20&linkCode=df0&hvadid=379787267915&hvpos=&hvnetw=g&hvrand=17878630849295054242&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1677722273187&psc=1&mcid=8ca43b49ee7f3f93b09e9ca46a702db1"
+    },
+    {
+      "nome": "Ralador",
+      "imagem": "https://m.media-amazon.com/images/I/519qV-OxWuS._AC_SL1000_.jpg",
+      "preco": "R$ 25,00",
+      "link": "https://www.amazon.com.br/Ralador-Faces-Top-Pratic-Brinox/dp/B08PHZT2PC/ref=asc_df_B08PHZT2PC/?tag=googleshopp06-20&linkCode=df0&hvadid=379787267915&hvpos=&hvnetw=g&hvrand=12004492220436014843&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1394300798158&psc=1&mcid=2f5d2ea2cedc327bb7d4336e383e2801"
+    },
+    {
+      "nome": "Kit de Talheres Grandes",
+      "imagem": "https://m.media-amazon.com/images/I/6177-pLgREL._AC_SX679_.jpg",
+      "preco": "R$ 15,00",
+      "link": "https://www.amazon.com.br/Conjunto-Utens%C3%ADlio-Cozinha-Inox-Pe%C3%A7as/dp/B08DJ79673/ref=asc_df_B08DJ79673/?tag=googleshopp06-20&linkCode=df0&hvadid=379715128762&hvpos=&hvnetw=g&hvrand=16186363769883157795&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1188073438264&psc=1&mcid=42197311fb293c01b655b8b95bb3eb05"
+    },
+    {
+      "nome": "Bowls",
+      "imagem": "https://m.media-amazon.com/images/I/41lbW4ezYHL._AC_SL1000_.jpg",
+      "preco": "R$ 30,00",
+      "link": "https://www.amazon.com.br/dp/B09BBKG7R3/ref=sspa_mw_detail_0?ie=UTF8&psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9waG9uZV9kZXRhaWwp13NParams"
+    },
+    {
+      "nome": "Formas para bolos e assados",
+      "imagem": "https://down-br.img.susercontent.com/file/6bda073aeda98c731a062a2d0a5ac242",
+      "preco": "R$ 20,00",
+      "link": "https://br.shp.ee/vPXBdBx"
+    },
+    {
+      "nome": "Jarra",
+      "imagem": "https://m.media-amazon.com/images/I/31LbG+ffwsS._AC_SL1181_.jpg",
+      "preco": "R$ 20,00",
+      "link": "https://www.amazon.com.br/Jarra-Coza-10303-0008-Preto/dp/B077M4L6MC/ref=asc_df_B077M4L6MC/?tag=googleshopp06-20&linkCode=df0&hvadid=379787388467&hvpos=&hvnetw=g&hvrand=3277345466106291681&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-892703495039&psc=1&mcid=a8c634f2640231f4b33b11ce89248c42"
+    },
+    {
+      "nome": "Jarra de vidro",
+      "imagem": "https://m.media-amazon.com/images/I/61JKxZME-JL._AC_SL1000_.jpg",
+      "preco": "R$ 25,00",
+      "link": "https://www.amazon.com.br/Jarra-Vidro-Litro-para-%C3%81gua/dp/B0CJP7CFPM/ref=asc_df_B0CJP7CFPM/?tag=googleshopp06-20&linkCode=df0&hvadid=647507659577&hvpos=&hvnetw=g&hvrand=3277345466106291681&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-2311632081277&psc=1&mcid=34d39bf4370a3ef5833b940553b14faf"
+    },
+    {
+      "nome": "Potes de vidro",
+      "imagem": "https://m.media-amazon.com/images/I/51LTe8WOpUL._AC_SL1000_.jpg",
+      "preco": "R$ 30,00",
+      "link": "https://www.amazon.com.br/Herm%C3%A9ticos-Mantimentos-Organiza%C3%A7%C3%A3o-Resistente-Microondas/dp/B0CSR6SJCK/ref=asc_df_B0CSR6SJCK/?tag=googleshopp06-20&linkCode=df0&hvadid=675291522131&hvpos=&hvnetw=g&hvrand=2539623318335633514&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-2283824768040&psc=1&mcid=8221f16c1aa73827b34f97ba730a42d0"
+    },
+    {
+      "nome": "Mantimentos",
+      "imagem": "https://m.media-amazon.com/images/I/61Bj1gJ64JL._AC_SL1000_.jpg",
+      "preco": "R$ 50,00",
+      "link": "https://www.amazon.com.br/Potes-vidro-mantimentos-tampa-bambu/dp/B09JDZ5LW6/ref=asc_df_B09JDZ5LW6/?tag=googleshopp06-20&linkCode=df0&hvadid=549955600079&hvpos=&hvnetw=g&hvrand=15523279066118406644&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-1645411448786&psc=1&mcid=2cebb35f201c398087fd276defdfa441"
+    },
+    {
+      "nome": "Assadeira de vidro",
+      "imagem": "https://m.media-amazon.com/images/I/51X6C1aXaxL._AC_SL1000_.jpg",
+      "preco": "R$ 60,00",
+      "link": "https://www.amazon.com.br/Assadeiras-Marinex-Pe%C3%A7as-Tampa-Vidro/dp/B082M6W4VX/ref=asc_df_B082M6W4VX/?tag=googleshopp06-20&linkCode=df0&hvadid=379698488541&hvpos=&hvnetw=g&hvrand=15523279066118406644&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-896953145889&psc=1&mcid=2cd9f06494cc33a3a441149ff664f158"
+    },
+    {
+      "nome": "Jogo de Tempero 1",
+      "imagem": "https://m.media-amazon.com/images/I/41mJsR26zyL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "preco": "R$ 70,00",
+      "link": "https://www.amazon.com.br/Porta-Temperos-Girat%C3%B3rio-Dosadora-Premium/dp/B0D5MT7FTC/ref=asc_df_B0D5MT7FTC/?tag=googleshopp06-20&linkCode=df0&hvadid=700534818900&hvpos=&hvnetw=g&hvrand=6735293088619660188&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9196955&hvtargid=pla-2318987134301&psc=1&mcid=46cc034033b83ff7ad9f6bc48ab2eeec"
+    },
+    {
+      "nome": "Jogo de Tempero 2",
+      "imagem": "https://m.media-amazon.com/images/I/71BGFCcQkeL._AC_SL1024_.jpg",
+      "preco": "R$ 80,00",
+      "link": "https://www.amazon.com.br/Porta-Temperos-Condimentos-Cozinha-tempero/dp/B0CV1ZNNTC/ref=asc_df_B0CV1ZNNTC/?tag=googleshopp06-20&linkCode=df0&hvadid=676104128623&hvpos=&hvnetw=g&hvrand=6735293088619660188&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9196955&hvtargid=pla-2282148249013&psc=1&mcid=cfa71b8457cc3c5099c347a50e79147d"
+    },
+    {
+      "nome": "Jogo de Sobremesa",
+      "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rcct-lrg5uh5rv9pl95",
+      "preco": "R$ 80,00",
+      "link": "https://br.shp.ee/EagZQxa"
+    },
+    {
+      "nome": "Jogo de Copos",
+      "imagem": "https://m.media-amazon.com/images/I/61DPhpnqW+L._AC_SX679_.jpg",
+      "preco": "R$ 80,00",
+      "link": "https://www.amazon.com.br/Jogo-Copos-Nadir-Dubai-Incolor/dp/B07CMSXPW1/ref=asc_df_B07CMSXPW1/?tag=googleshopp06-20&linkCode=df0&hvadid=647392279416&hvpos=&hvnetw=g&hvrand=6432332989169778125&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9196955&hvtargid=pla-2274306420693&psc=1&mcid=639ab92484d8325f953f87da60a669dd"
+    },
+    {
+      "nome": "Jogo de Talheres",
+      "imagem": "https://down-br.img.susercontent.com/file/26eb395e4032dfc2a5703eeb30f6bce6",
+      "preco": "R$ 80,00",
+      "link": "https://br.shp.ee/zoY5gvm"
+    },
+    {
+      "nome": "Mini Processador de Alimentos",
+      "imagem": "https://m.media-amazon.com/images/I/51oM3IUe9AL._AC_SX679_.jpg",
+      "preco": "R$ 38,87",
+      "link": "https://www.amazon.com.br/dp/B0CWN98S6K/ref=sspa_dk_detail_3?pf_rd_p=1868afab-d777-4b70-8899-1b323ad91d95&pf_rd_r=DYC3GR4XD7W6KPXFXVGQ&pd_rd_wg=WOmmf&pd_rd_w=sd5Df&content-id=amzn1.sym.1868afab-d777-4b70-8899-1b323ad91d95&pd_rd_r=77dcb9be-e8e6-41b8-9438-c4ee5e6e78bf&s=kitchen&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1"
+    },
+    {
+      "nome": "Peneira",
+      "imagem": "https://m.media-amazon.com/images/I/51yCu3TIVwL._AC_SL1000_.jpg",
+      "preco": "R$ 25,80",
+      "link": "https://www.amazon.com.br/peneiras-Conjunto-Pneiras-Resistente-PROLLENCE/dp/B0CHN7FRLQ/ref=sr_1_15?crid=2XSLHL365ZL&dib=eyJ2IjoiMSJ9.uxaTAa7pnF-QG_yKjoeGDM1j73sK9GcvYaUg7RUtWB18MK_mqKi3kdDs7dpCMJGuLSGVko55oAB53FvCNbb-zlasGULdegLnP-VgyQKyq_qFrSKfwfTTifhDHisHtIsZhNjzMy_5Kb_p4DU1zTTCFaf8iblyiW9NIsZpeYJ-esnK0ghToHETtYGeElEQ-iqiUKuUfHjASYtAKqRi1Tz5THsVlZYa4imoEYwfvO11oSg.2Dnrf4OPaE5LHtcfnerSVmOio0YQXT3Iw7NXMODM0Tw&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722090978&s=kitchen&sprefix=utensilio%2Ckitchen%2C295&sr=1-15"
+    },
+    {
+      "nome": "Porta Queijo",
+      "imagem": "https://m.media-amazon.com/images/I/61DPhpnqW+L._AC_SX679_.jpg",
+      "preco": "R$ 46,48",
+      "link": "https://www.amazon.com.br/Porta-queijo-Ecokitchen-Mimo-Style/dp/B076JKK4BT/ref=sr_1_24?crid=2XSLHL365ZL&dib=eyJ2IjoiMSJ9.qoaAVm7dD57kAve7pATxSbARvQ3OEyeBcBhjvw4fOZTsUMOQB5vuQ-r36bdD7L0hTHEMHunVA80UmNedHNHppaw3l8kZ8WpkDxo9fl9n20M0-Vmz667OnMdQyCH_O8yMV9_05kpmU7coOA-cjQ-gRfaBKjHrQ2oFfb_1OPYJiykiSRlN5wWOm_SURRJBEQzj.gNCs4fAFcgae0n0mCuJw1-o6aqsfRB5q3m96JL9Zmeg&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722091063&s=kitchen&sprefix=utensilio%2Ckitchen%2C295&sr=1-24"
+    },
+    {
+      "nome": "Forma para moldar hamburguer",
+      "imagem": "https://m.media-amazon.com/images/I/61ByzwctHVL._AC_SX679_.jpg",
+      "preco": "R$ 23,50",
+      "link": "https://www.amazon.com.br/Hamb%C3%BArguer-Recheado-Hamburguer-Caseiro-Premium/dp/B0CKH52ZXL/ref=sr_1_25?crid=2XSLHL365ZL&dib=eyJ2IjoiMSJ9.qoaAVm7dD57kAve7pATxSbARvQ3OEyeBcBhjvw4fOZTsUMOQB5vuQ-r36bdD7L0hTHEMHunVA80UmNedHNHppaw3l8kZ8WpkDxo9fl9n20M0-Vmz667OnMdQyCH_O8yMV9_05kpmU7coOA-cjQ-gRfaBKjHrQ2oFfb_1OPYJiykiSRlN5wWOm_SURRJBEQzj.gNCs4fAFcgae0n0mCuJw1-o6aqsfRB5q3m96JL9Zmeg&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722091063&s=kitchen&sprefix=utensilio%2Ckitchen%2C295&sr=1-25"
+    },
+    {
+      "nome": "Amolador",
+      "imagem": "https://m.media-amazon.com/images/I/41kaamR3W4L._AC_SL1000_.jpg",
+      "preco": "R$ 29,99",
+      "link": "https://www.amazon.com.br/Afiador-Amolador-Tesouras-Profissional-Est%C3%A1gios/dp/B0CLJWPY8G/ref=sr_1_26?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.qoaAVm7dD57kAve7pATxSQTMr92D6uuqWKqpd3dV5ERA9MfBcn8lU1P-nRyJyAiODdKzG7y5lTeVRBeBSmf9MyxEIO5kdUHBKIvxadAPG3A0-Vmz667OnMdQyCH_O8yMV9_05kpmU7coOA-cjQ-gRRGI1Qe_uOhd3f2S5zqWp0Rz6ZK5rhwUtTc_oLfR-RLI.L-yi9bofQ2ybCw8LXPCcbeEfORxv3AELjub-q2vACbE&dib_tag=se&keywords=utensilios%2Bpara%2Bcozinha&qid=1722092706&s=kitchen&sr=1-26&th=1"
+    },
+    {
+      "nome": "Escorredor",
+      "imagem": "https://m.media-amazon.com/images/I/61kC7qsfdXS._AC_SX679_.jpg",
+      "preco": "R$ 40,90",
+      "link": "https://www.amazon.com.br/Passador-24-5Cm-Suprema-2082024-Brinox/dp/B076TGTJ71/ref=sr_1_126?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.JGi0rhkO5KBDkDiWRvusn0Sgfpe8GuSBea7ASqf2zhAW3Q6Gn-3XUxdz0teq3-baG4Lfm7JYv-dRn9Z16v3shzIpTiovkRRZPYmWyMvtwgVgWDfFArjIN621aB77xS2tYbWFing9gbumTiZZMHzsnCknTkwojHijOAqFN2P9IRrTwkWMOuTN4W3Ii3gMloUX.OJtANkc3kKP8kHuior4IQ0EEPSphjrnuQuo45p-d5w8&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722093259&s=kitchen&sr=1-126"
+    },
+    {
+      "nome": "Medidor",
+      "imagem": "https://m.media-amazon.com/images/I/517UyE9lwdL._AC_SX679_.jpg",
+      "preco": "R$ 43,91",
+      "link": "https://www.amazon.com.br/Mimo-Style-Inoxid%C3%A1vel-Ingredientes-ASA20395/dp/B097G77T7R/ref=sr_1_35?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9._iJTO5o9rJIZ4b7k1N95n3lq4U0Hzp-vkBFDD427c0f_XU39-qbnQg-xjP4fF6Lxu4iqaDjVLNrApN4-KSRwqn_qrX8UcS64hCHFXglHLY_EZ8Qv1WdiFSUrK6baDrt5NcXCkRQza8OEZT5DdKTIPoliSfwLz7ZFN9wRh2y4c8yMNCuv0AWEV-79ybFZZWLb.4Ii_ysXj66_p2NAjUwnbqB-_m-kjFWw8RY8_s0tm4u8&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722092839&s=kitchen&sr=1-35"
+    },
+    {
+      "nome": "Mini Espátula",
+      "imagem": "https://m.media-amazon.com/images/I/713QXFkLy7L._AC_SX679_.jpg",
+      "preco": "R$ 28,40",
+      "link": "https://www.amazon.com.br/Conjunto-Esp%C3%A1tulas-Manteiga-23399048-Tramontina/dp/B076MGY5FG/ref=sr_1_51?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.fl5z8FUIbl1Unin-8RS-isfrJJHJ9yRNg4PMD-oRWsLGjHj071QN20LucGBJIEps.Zc5bzfOKWNpJXhKyfUh2b90k_-zKIrcahj7TPmq_TY8&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722092935&s=kitchen&sr=1-51"
+    },
+    {
+      "nome": "Fouet",
+      "imagem": "https://m.media-amazon.com/images/I/41XmDIia2lL._AC_SX679_.jpg",
+      "preco": "R$ 16,38",
+      "link": "https://www.amazon.com.br/Batedor-Grande-Mimo-Style-ASA7/dp/B076JKY14L/ref=sr_1_72?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.X5ZyxpAXry8cPcuJIx8_2DWa0h7eHj3VtVnkV48RK-BN88L4DdHsUcvhqEiTigBnikdKYOxFyTyrfb8aFdXCASaEcSVkiUGF3A9wRkHwxdy_G8ewVx3FGezhbsKD5d3bh3wC-ZWqwussp8oHo0aZg_gHKBtkB637RFWZBeGnS8mdbg6Orulidy9VDeP9kE2G.SDAum-iMBc-cTc6euH6BRaVIm30yiY_ippe5iqdCs5U&dib_tag=se&keywords=utensilios%2Bpara%2Bcozinha&qid=1722093039&s=kitchen&sr=1-72&th=1"
+    },
+    {
+      "nome": "Colher de Sorvete",
+      "imagem": "https://m.media-amazon.com/images/I/61Dtc9kGooL._AC_SX679_.jpg",
+      "preco": "R$ 39,90",
+      "link": "https://www.amazon.com.br/Sorvete-Madeira-Pegador-Sobremesa-Profissional/dp/B0D86Q1WLD/ref=sr_1_189?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.ElP6nv88sWeEtqAITIhHAGNGfAMQTDdVgbQ0K3bat6XH1MQLfaGL_lLhznVOlBTl1deLzEGT8-gvi62EQnyQszStYsIhEMVo9flYrMXft8R4pzxqQpp2HesqbMbJyf_ZaOvVYVqW95jmyZUd8Sby1Vh8KWZMbjD_zqetWn3O-im2JM7levvfWyfq4BQ57qyT.VGQ2RH-TnPucCsmhF78-wS3V6p-DiREIsZ7pSzau60E&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722093531&s=kitchen&sr=1-189"
+    },
+    {
+      "nome": "Tesoura de Cozinha",
+      "imagem": "https://m.media-amazon.com/images/I/51kbkByBMGL._AC_SX679_.jpg",
+      "preco": "R$ 19,90",
+      "link": "https://www.amazon.com.br/Tesoura-Inox-Cozinha-Weck-Prata/dp/B07QSB4WGQ/ref=sr_1_201?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.9T7iSKLB7pPYPgk9ZHBRI55mzpag-WSO983POobziDU98VkgABjNbc_TBKP8JqpmAQCBOnQqNz6GX-J9AzcAfblZ9bzvD6oGMwa29M-LgCplGmH7gORlH1V5UNIo4Du2wdt7dR3uyn3UyT4B_lS4SOAvzoQ9HiJUD7ruYrkmEQf7LEp3O6YqOnZf1_3dsRlJ.HxYSc46PPRD6YvFYIqVtaWQx_DCPiQqFmy12WOGnSoo&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722093596&s=kitchen&sr=1-201"
+    },
+    {
+      "nome": "Espremedor",
+      "imagem": "https://m.media-amazon.com/images/I/51wfv7AchqL._AC_SX679_.jpg",
+      "preco": "R$ 63,90",
+      "link": "https://www.amazon.com.br/Espremedor-Premium-220V-Mondial-Preto/dp/B076FGHHNG/ref=sr_1_4?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=SS8DSKQ3D05Y&dib=eyJ2IjoiMSJ9.quXkWkF6A07tp6DFIcqI5R4ZfmyEzQohVnA3b2bbierO4Tfe5pFC8B114WiOqIt7YY5r-rgpk9gQkQQL36aN1zdsfASBgidsoxRmB5X1kqXzA44mVJmvWCiqr9LtaDyZFiuidBzS4KP5tyQfj9Hoe_5cGPD_gqgIOiNVpcuPG2U_scCmeIxkCGgPJ7-6Dl2b5hxe4KeQKWdRTxH_LXb9--IgJHUu5CRJ9i6A4wPjMAW70NlqeKOVugsnMv1y4YQaK7eMiYzsvXDFI5R7Mh5pfKpYOA0eF7RdkB3VizOm4Fk.UEV55tZLJxAeysdHiO4iQV_LaUdme0zaOouZiK8EFnM&dib_tag=se&keywords=espremedor+220v&qid=1722099924&sprefix=espremedor+220v%2Caps%2C435&sr=8-4"
+    },
+    {
+      "nome": "Batedeira",
+      "imagem": "https://m.media-amazon.com/images/I/71a-aiH-n+L._AC_SX679_.jpg",
+      "preco": "R$ 85,90",
+      "link": "https://www.amazon.com.br/Batedeira-Pr%C3%A1tica-Black-Preta-Mondial/dp/B08C6FYSFF/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2E1OAUGKHYBEB&dib=eyJ2IjoiMSJ9.zSdKKEDU0Xc7xU4POyXGHwVn_hIzkQA4j2KExZovWFPNPYk5ABXQusk7YPzSnIRiwWjfvif5FdCamMZROrtKFAbVfOsLS_3bkvFmdGyPjgAVH32HvARaXWoGEC6CY9k6F6sygZvUhOl9O1FGmj1jdCXKk5rsGlPkvmrjRWQWEMIPzJPtsE9M8PYa9oNax4_e_LWMQ03Bh9H9pIOCOxTeWnKynkj7XzslGvOVvwJyyEpeSrUr_ZIm97z02fSdb2c8_qE-G1rfR1VLHaiE7yAYemHrmO_NSNSzr6hiexBRpto.6mwnQAFnD2LoEuTlsPyHwEvLngQc99IoiOOQwQlV0Zk&dib_tag=se&keywords=batedeira+220v&qid=1722100210&sprefix=batedeira220v%2Caps%2C353&sr=8-2"
+    },
+    {
+      "nome": "Mixer",
+      "imagem": "https://m.media-amazon.com/images/I/41O808ixroL._AC_SX679_.jpg",
+      "preco": "R$ 104,90",
+      "link": "https://www.amazon.com.br/Mixer-Brit%C3%A2nia-BMX350P-Preto-220V/dp/B097KNL4X6/ref=sr_1_13?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1NU4DPZW3NHV4&dib=eyJ2IjoiMSJ9.r2ox_fVgCNhmQGiW6dnU9jfndQwHT8SJvXJDtTawuDi0TwboCnnkvg625D_5Py9qe2aPFZt4Jjp3GGJZhzsKBF9BjqhRO8zDMJ0isW50CTSZ22sSz71skbXnWozqLewRI_CAAk5GZOo1rZ_GiG0b_Wwzrs2LMBQDBBQOz2vJWII6GDx4SKIKt-AP2mflKSwkIh7V7SxqSbZju8MVuuQinQtck1KySpfCMLCW8GKKV1eTTCCgdbA3e8ZYg2ReWCwEmx9QGMB7jVeXpnYCyszH6QGJ4-7d5w6GI6kMfs29mj4.bNkbe3EGxYjsDAdsGh4p7lI1zY8kK4S7Y3Z0opdl-JU&dib_tag=se&keywords=mix+220v&qid=1722100280&sprefix=mi220v%2Caps%2C240&sr=8-13&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e"
+    },
+    {
+      "nome": "Pipoqueira",
+      "imagem": "https://m.media-amazon.com/images/I/41lxL7tqKnL._AC_SX679_.jpg",
+      "preco": "R$ 155,19",
+      "link": "https://www.amazon.com.br/Pipoqueira-Poplite-Vermelha-Direcionador-Brit%C3%A2nia/dp/B076HZCFMY/ref=sr_1_61?crid=34O8DI2H7JBLJ&dib=eyJ2IjoiMSJ9.QgNHpQSOOJcVJ9xRLsJ3HoK1FXlbtDzL8DHSFktUopH7-UaPJMK3hOYNE2pIr3VfzEIEWWJIvoFc18lV6RILbjYMUij9UfRN18mtvsb7LJriqVsimLlcEDx08UWqxvvv8XzSbTo2hyQpbkdVZYMF1GvzE8X8zpwgum_OcuSHAvUEOd6V7DHRrR4KrBUNYlGWF-TB03lPI0kwfhKD_infbDI9zAKRERtYOeH9wrrKIJnWEABblaWupuWT7eK6htIDLBWcYXMLjovS20TjeuVIY5S2IhA92As8m8k3zIZHpxM.e-7IrpWu9cW2QQd8fZpnjboxrQHBGh8BCJmHMJNR0Fw&dib_tag=se&keywords=pipoqueira+eletrica+220v&qid=1722100429&sprefix=220v%2Caps%2C474&sr=8-61&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+    },
+    {
+      "nome": "Cafeteira",
+      "imagem": "https://m.media-amazon.com/images/I/512wbNZP7KL._AC_SX679_.jpg",
+      "preco": "R$ 425,90",
+      "link": "https://www.amazon.com.br/Cafeteira-Espresso-Luna-Vermelha-Autom%C3%A1tica/dp/B0CJGV61QT/ref=sr_1_25_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A06KJO314HSD&dib=eyJ2IjoiMSJ9.0vUcnDhGHg6Z4AaYvdOfe0jiTkW8-0GZEAyxGqe4eOrcAq7OcoD1kmdYcN9Ju4snPf6i2YmaA1vmW1MgpBsPCKv9wEh0Bvsms1gIq-zZdUCm9mfHxb3TWqpFvZjUO1wELtnwO7tIz8AWyd6gvMsTpulZIPmf4XQIz79SnzTpeODvwLpc157DoIRud0muviJhO0FyTgsM0O97mN9RYNDKzxj63iLHdCkF1EQrWDHisByOUxJcjh9OEdilDGzCijPivzRH8Y2FEB5thfRQkIDCLffnh-pgJAtxViEMBI8nBCI.KlOB4_Su3iCpNNDe-Vike_O-WwBoe3OhSNfOYRWooOc&dib_tag=se&keywords=cafeteira+220v&qid=1722100552&sprefix=cafeteira+220v%2Caps%2C319&sr=8-25-spons&ufe=app_do%3Aamzn1.fos.4bddec23-2dcf-4403-8597-e1a02442043d&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1"
+    },
+    {
+      "nome": "Multiprocessador com Liquidificador",
+      "imagem": "https://m.media-amazon.com/images/I/61gn+nJP9PL._AC_SL1000_.jpg",
+      "preco": "R$ 287,00",
+      "link": "https://www.amazon.com.br/Multiprocessador-Turbo-Mondial-MPN-01-BF-MULTIPROCESSADOR/dp/B09NXHJCH3/ref=sr_1_5?dib=eyJ2IjoiMSJ9.W_iT7tesKDXrBpC6YI32-BHGviN7APnPdkPHkZDNAFcfSoRh4smWDLD-8bEL8CRlOa8PN7YKjYPIYo8h1i8gJx89eqp8fipc1oy5eIPHmbhZXEj4goPYdz0vurT56RmpU5GWIwyR73RtcfuSy7oNDHT5nIa9FhpoG0EixzuEm-_e8oBM1dUwPMrYPmEVLiIjo-Nac9Getmd6E4WvXKHPWyi7nqwU9cG2-IvEkgAOoojh9_W_bJi9uA1E2681y_GcILW9bJspMAhfQG2FcguLron8DLcL_nhcoUK9NveV_0g.GCrGpjgAAOnuc1OaY3rGf9HoeHuSCiWj0ILwOdvqMg4&dib_tag=se&keywords=multiprocessador+220v&qid=1722100841&sr=8-5&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+    },
+    {
+      "nome": "Concha",
+      "imagem": "https://m.media-amazon.com/images/I/514my5gasUL._AC_SX679_.jpg",
+      "preco": "R$ 16,23",
+      "link": "https://www.amazon.com.br/Concha-25cm-Caldo-Dolce-Home/dp/B077TTXDN6/ref=sr_1_69?crid=2FRKPAIREDKSU&dib=eyJ2IjoiMSJ9.iil0pVxsO1z-1XCpg-swWFPri7uuf7rjLrheU0tx8P9r_pVSzDz87eArA8eQfSr5YxBjCAWJYf3lUK7JIOuvXYXZp_IQ_EenWLzVnwdU2uO33T_LPZ1MhgRiyYaPHz7POa-2Elk8B1YbWUoGJ9bZAwyIAFLwj4AIMNUqUFFdnNM.y92tLf7g-rQHInZtKsECEWsbM1JShgn2s8K1KbLeEPQ&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722101144&refinements=p_n_material_browse%3A17338620011&rnid=17338590011&s=kitchen&sprefix=utensilios%2Caps%2C273&sr=1-69"
+    },
+    {
+      "nome": "Cortador de Pizza",
+      "imagem": "https://m.media-amazon.com/images/I/416NtXxRIDL._AC_SL1000_.jpg",
+      "preco": "R$ 26,99",
+      "link": "https://www.amazon.com.br/Cortador-Pizza-Mimo-Style-ASA14/dp/B076JLY8BY/ref=sr_1_81?crid=2FRKPAIREDKSU&dib=eyJ2IjoiMSJ9.N19vMXi5KK2Kryn5uodEfd1E1jmkOaBbomDC8WLi1BvBaWQy8Y45KCCDUtQgKJ0_XV3liA_H3-Fwo_s07csqjQ.mfDDXUfBBBtltFKiH5hgolIPHBsKK3sMbPZyD0ea5Xc&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722101222&refinements=p_n_material_browse%3A17338620011&rnid=17338590011&s=kitchen&sprefix=utensilios%2Caps%2C273&sr=1-81"
+    },
+    {
+      "nome": "Espátula para Bolo",
+      "imagem": "https://m.media-amazon.com/images/I/31j+LtbqunL._AC_SX679_.jpg",
+      "preco": "R$ 19,99",
+      "link": "https://www.amazon.com.br/Esp%C3%A1tula-Inox-para-Positano-Lyor/dp/B09TWZNJ9K/ref=sr_1_99?crid=2FRKPAIREDKSU&dib=eyJ2IjoiMSJ9.BZv8T-ie0MXOcgu-Q5YbPi8VVcydMM6rdsQgcacIvVmPUHAKwWIInkJZ-KMP8CbUjIVdn6P7HLFivLmuToAC3hgUvjMy7QYmDw0XQf5HiL4efGl_a-XryF5MX-yxryx0HGK9C0AXm6MWDaEBuzlsde_gB7wFR8SBl4VGBsEi8ak.OyuDWUGTT42EQ07ax7gSsrfDba8gJPDyLrVOA4xG7fo&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722101303&refinements=p_n_material_browse%3A17338620011&rnid=17338590011&s=kitchen&sprefix=utensilios%2Caps%2C273&sr=1-99"
+    },
+    {
+      "nome": "Amassador e Espremedor",
+      "imagem": "https://m.media-amazon.com/images/I/41PfoTX8qGL._AC_SX679_.jpg",
+      "preco": "R$ 19,99",
+      "link": "https://www.amazon.com.br/Amassador-Batatas-Mimo-Style-ASA1309/dp/B076JKHZH7/ref=sr_1_109?crid=2FRKPAIREDKSU&dib=eyJ2IjoiMSJ9.5FW5E9r_vA27KXx_ZCufkp8rjn4JRke0hXgyDGSga8dIUGXjVMKCYptimje-zPmDD2AHGK09Drinds7mdAGllyqTbDLJw1_B8nBvEL-eQKE9es33MeVZU8pWi0Z9woiqOcEgoT_v0FMUvm_LIPjugxRuyPw0aZpG3-fPIem_3nfu9Z6Q-xpMj0zqMpU2FtiCYKEBrcCd34Z7CdLCow1d-YivIMeKH3kXSJwxnDSMFsQ.GEQ4Ek4ULPaB-ePpaFOqzeg7zbCerwjcSDgS_1YciYE&dib_tag=se&keywords=utensilios+para+cozinha&qid=1722101705&refinements=p_n_material_browse%3A17338620011&rnid=17338590011&s=kitchen&sprefix=utensilios%2Caps%2C273&sr=1-109"
+    },
+    {
+      "nome": "Kit 3 Colheres De Pau",
+      "imagem": "https://m.media-amazon.com/images/I/41TDpGHX44L._AC_.jpg",
+      "preco": "R$ 29,99",
+      "link": "https://www.amazon.com.br/Kit-Colheres-Tradicional-Grande-35cm/dp/B0BSVLXR5Q/ref=sr_1_10?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3JZVSB0K6EHS7&dib=eyJ2IjoiMSJ9.2J8iqPymiga2DmB26F6xD-b8kWFzgTAjzDnJRqSaLRm6fC7GQxqV7LXO3NOhtZ-tyEvR4PQXGi3u8d9WPEecZOSxJ4-Z7-DYFA6n4a6mg523vObLUPfEiVgMSqaRDqu2-1sXaAYEUcNjpI9rH-MzMKd_kzj9Vd22Y6Jka_VrTQagA0YheF9uThzqFwwGloimwa6uoo1rrKSr6QGSmlFh09PBPT2v1Kkxm0qdrGoE-rY.rjyNriOeug_qvN-n8EAcprxjYNyYVrHgnSPqDhXPDBI&dib_tag=se&keywords=utensilios+para+cozinha+colher+de+pau&qid=1722101820&s=kitchen&sprefix=utensilios+para+cozinha+colher+de+pa%2Ckitchen%2C356&sr=1-10"
+    }
+  ],
+  "quarto": [
+    {
+      "nome": "Ferro de passar",
+      "imagem": "https://m.media-amazon.com/images/I/71-22winkXL._AC_SL1500_.jpg",
+      "preco": "R$ 86,17",
+      "link": "https://www.amazon.com.br/Ferro-Passar-Mondial-F-32-2-Branco/dp/B076HBGCFH/ref=asc_df_B076HBGCFH/?tag=googleshopp00-20&linkCode=df0&hvadid=379773078479&hvpos=&hvnetw=g&hvrand=10582732190013767314&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-812087274451&psc=1&mcid=369d93591b353ac6a6f1541e68e821c2"
+    },
+    {
+      "nome": "Jogo de Lençol e Fronha para Cama Queen Casal",
+      "imagem": "https://m.media-amazon.com/images/I/41jqx0BTnGL._AC_SX679_.jpg",
+      "preco": "R$ 150,00",
+      "link": "https://www.amazon.com.br/Queen-Malha-El%C3%A1stico-Algod%C3%A3o-Marinho/dp/B0D5NQKR7X/ref=asc_df_B0D5NQKR7X/?tag=googleshopp00-20&linkCode=df0&hvadid=700607358925&hvpos=&hvnetw=g&hvrand=2447322153523985436&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-2317323470113&mcid=a20b1847083e32c5b32cf7362ebd309c&th=1"
+    },
+    {
+      "nome": "Edredom para Cama Queen Casal",
+      "imagem": "https://m.media-amazon.com/images/I/71or9yuj0rS._AC_SL1280_.jpg",
+      "preco": "R$ 158,90",
+      "link": "https://www.amazon.com.br/Coberdrom-Sherpa-Edredom-Cobertor-Felpuda/dp/B097CKRQ9D/ref=asc_df_B097CKRQ9D/?tag=googleshopp00-20&linkCode=df0&hvadid=379738258500&hvpos=&hvnetw=g&hvrand=13093413203578275870&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-1344298747176&mcid=3c8ff61aa1a137cca4390978c37638e1&th=1"
+    },
+    {
+      "nome": "Kit 50 Cabides",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_911287-MLA77753536392_072024-O.webp",
+      "preco": "R$ 64,30",
+      "link": "https://www.mercadolivre.com.br/kit-50-cabides-acrilico-tradicional-fino-onlyforshop-cor-transparente/p/MLB24768671?item_id=MLB3604542721&from=gshop&matt_tool=63065976&matt_word=&matt_source=google&matt_campaign_id=14302215534&matt_ad_group_id=154967597988&matt_match_type=&matt_network=g&matt_device=c&matt_creative=649487315899&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098660&matt_product_id=MLB24768671-product&matt_product_partition_id=1960832236233&matt_target_id=aud-1966857867496:pla-1960832236233&cq_src=google_ads&cq_cmp=14302215534&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gclid=Cj0KCQjwtZK1BhDuARIsAAy2VzsmaXZbFW1e7Ttrc1hB_sQnxkq4FJ_vv-Gyq3K4_4RY_rWyTJRhdEgaApXhEALw_wcB"
+    },
+    {
+      "nome": "Jogo de Cama Casal Queen King Lençol e Fronhas",
+      "imagem": "https://m.media-amazon.com/images/I/51Eq8iUcd-L._AC_SX679_.jpg",
+      "preco": "R$ 139,99",
+      "link": "https://www.amazon.com.br/Len%C3%A7ol-Fronhas-Palito-Casa-Dona/dp/B09VYG8TXF/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1UKZXAN7F3LH6&dib=eyJ2IjoiMSJ9.PKff864rX1Xd6jza1zsHScGB1paGGLbKkJdaQfTmvvPkRK-AQDffBE46NBRYka8ZABs2WUVcnKKVIkG20vyAcz3cxBJw-BqeHtJE0acK1drpw_GW4MVuOWkxYYMMAz--8_Mr2a_oSY0_10BuGc3W-X5KxRoVIKQKTD_cF_bPMpEsIimewjy517p3LQYWDpMlMjcTOHmdQ3S130LyFEUyK2HMF41_HtXUE4aBsPGJ7-Y.AMquNuiU-JscmzgPSCPBX9g-_s4PiIwLpTwFILVdQfE&dib_tag=se&keywords=len%C3%A7os%2Be%2Bfronha%2Bpara%2Bcama%2Bqueen%2Bcasal&qid=1722102228&s=home&sprefix=len%C3%B5s%2Be%2Bfronha%2Bpara%2Bcama%2Bqueen%2Bcasal%2Chome%2C261&sr=1-3&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e&th=1"
+    }
+  ],
+  "banheiro": [
+    {
+      "nome": "Kit Conjunto para Banheiro Bambu 6 Peças",
+      "imagem": "https://m.media-amazon.com/images/I/41UwAXZVdZL._AC_SX679_.jpg",
+      "preco": "R$ 91,90",
+      "link": "https://www.amazon.com.br/Plasvale-Conjunto-Banheiro-Bambu-Pe%C3%A7as/dp/B0C3BG2LXJ/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=23PB6X0SJZSF0&dib=eyJ2IjoiMSJ9.nsirkCrQlKVcbXrg2iNfvSStB6C_LGWHtGfOwstdTf1XLwkwtH9Sj0fygYGgubnhxAF2yzvHk5WYsFIJBWKH-D758cyoGOLQIjkVlgiILlUU1xHTkocQnTNYDYSKGTh326rd4b_TYS_vpB-ixNDmnqzXYBV5GCIU9iTmKm8FRaWKpCfOM4VMCjeV6rU8T5BquOwhn3zg6xxieJeigLrYSsDO6r18bmRaMtU0SEJfaiI.zdH_dalDTS2MD3XNbDSEkt-_fhJf7IAKRvBc-qGEH6s&dib_tag=se&keywords=kit+de+banheiro&qid=1722102371&s=home&sprefix=kit+de+banheir%2Chome%2C413&sr=1-5"
+    },
+    {
+      "nome": "Toalhas de Banho",
+      "imagem": "https://m.media-amazon.com/images/I/61hBBeZRtyL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "preco": "R$ 48,00",
+      "link": "https://www.amazon.com.br/Toalha-Banho-Felpuda-Gigantes-Canad%C3%A1/dp/B0BYTG1L9M/ref=sr_1_21?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2NRGYYCXMVZM&dib=eyJ2IjoiMSJ9.970LCkrh8xl5kGLetHPGKk20MSM2PYbADHBlkrff0irGjHj071QN20LucGBJIEps.QYyi8dbv4w2dV_Gq4T3biH3O0vHtFzreTNjeiyLfRpI&dib_tag=se&keywords=toalha%2Bde%2Bbanho&qid=1722102879&s=home&sprefix=toalha%2Bde%2Bbanho%2Chome%2C279&sr=1-21&th=1"
+    },
+    {
+      "nome": "Jogo de Toalhas",
+      "imagem": "https://m.media-amazon.com/images/I/61G4yIUf0rL._AC_SX679_.jpg",
+      "preco": "R$ 189,90",
+      "link": "https://www.amazon.com.br/Toalhas-Buddemeyer-Frape-Banho-Caramelo/dp/B0CV8TP331/ref=sr_1_31?adgrpid=117911635862&dib=eyJ2IjoiMSJ9.mQVumWhv2EUj_bcDbSyO7y13y-47T91cMTgNhZXmlOZmFliMRe8a8tY6ZPCcMDupB5NAevTQQFvONQawxbKECZVuS885J-E5g8y_1U1wXHDaV0mcYxU166a-ccpUCZXV8ZydaBEp3FWV1JhC1HEEyaVWysipaOo0OmLDhA--fuGNPKAsHp8xVB1MUTwgRtBRxwrKkd1WrpxNaYQEY5uq5jOGX46oTGGJAWG_Tz-tXCz3vQsKSuHzGXmQYt60c8YqTbQxIzY9hsAMcGWSt9_SKq5Wq7QJd2u3Bb0K3T4UEmo.Eeg5CEyx-BNnQKmriQbN0b7_xVAdRcZZAX6AA4ziVY4&dib_tag=se&hvadid=595972907033&hvdev=c&hvlocphy=9196955&hvnetw=g&hvqmt=e&hvrand=10835156757230499932&hvtargid=kwd-563601567&hydadcr=18436_13492555&keywords=toalha%2Bde%2Bbanho&qid=1722102946&sr=8-31&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e&th=1"
+    },
+    {
+      "nome": "Jogo de Toalhas",
+      "imagem": "https://m.media-amazon.com/images/I/812hGKA5VhL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "preco": "R$ 219,00",
+      "link": "https://www.amazon.com.br/Buddemeyer-Vanilla-Algod%C3%A3o-Toalha-Absor%C3%A7%C3%A3o/dp/B0CYTFPNZF/ref=sr_1_29?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2NRGYYCXMVZM&dib=eyJ2IjoiMSJ9.970LCkrh8xl5kGLetHPGKk20MSM2PYbADHBlkrff0ioIm1tzcEpFN-oE55MPr7wI5CjX-P8z1qDvUNUjcvY-F_UU4JUjXPfL3Ytp7xb0Z7JLYnR1a762HcfsQWTRi5kBERYCgosI6KD36BKClkALC3Fa_rpbsSs9VujzcLlsDnDJ11ORbTryPa3BKI2QUimcOOebj5iPVxEFYrSKUaii8fajXyfH1VyaNGtfYOCL4iE.tqasy2Y_bkQk9lfzvMQgsVImujKZGjZgB4bAliMOWgc&dib_tag=se&keywords=toalha%2Bde%2Bbanho&qid=1722103022&s=home&sprefix=toalha%2Bde%2Bbanho%2Chome%2C279&sr=1-29&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e&th=1"
+    },
+    {
+      "nome": "Tapete de Banheiro",
+      "imagem": "https://m.media-amazon.com/images/I/61kn9acYchL._AC_SX679_.jpg",
+      "preco": "R$ 29,90",
+      "link": "https://www.amazon.com.br/Tapete-Banheiro-Absorvente-Antiderrapante-Minicasa/dp/B0CZ1QK5XB/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=HYXIJRBSL9PV&dib=eyJ2IjoiMSJ9.q_SHyyVBewGrPKBJ8VYWFZ3CmpYkM8KzrC5hZULvUFaO46LGkWLLDJKOSPVuYZzTn9SippjIioVWme2OVrux-R6jiu19cP6eKLvNZtRejT6pqHh1BkP0n63ELybb3z0RuKnN8Ztkgb5YHyiNZ9CeogjaZe-Nq3eWKM2a5-0529x7uUbpFNe4uq0Z_Qqmkj2TjJwDqjwtTmRnbIuDYFu0OT2RdHvL-egjZ3e6YXyjzPg.sACcKXb6evfMt3vP1Q3pT3G5TZawgtfh-aDOCF398as&dib_tag=se&keywords=tapete+antiderrapante+para+banheiro&qid=1722103104&s=home&sprefix=tapede+antiderrapante+para+banheiro%2Chome%2C277&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+    },
+    {
+      "nome": "2 Tapete de Banheiro",
+      "imagem": "https://m.media-amazon.com/images/I/61kn9acYchL._AC_SX679_.jpg",
+      "preco": "R$ 49,99",
+      "link": "https://www.amazon.com.br/Tapetes-Banheiro-Antiderrapante-Casa-Dona/dp/B0CJ9WTZKW/ref=sr_1_9?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=HYXIJRBSL9PV&dib=eyJ2IjoiMSJ9.q_SHyyVBewGrPKBJ8VYWFZ3CmpYkM8KzrC5hZULvUFaO46LGkWLLDJKOSPVuYZzTn9SippjIioVWme2OVrux-R6jiu19cP6eKLvNZtRejT6pqHh1BkP0n63ELybb3z0RuKnN8Ztkgb5YHyiNZ9CeogjaZe-Nq3eWKM2a5-0529x7uUbpFNe4uq0Z_Qqmkj2TjJwDqjwtTmRnbIuDYFu0OT2RdHvL-egjZ3e6YXyjzPg.sACcKXb6evfMt3vP1Q3pT3G5TZawgtfh-aDOCF398as&dib_tag=se&keywords=tapete+antiderrapante+para+banheiro&qid=1722103167&s=home&sprefix=tapede+antiderrapante+para+banheiro%2Chome%2C277&sr=1-9"
+    },
+    {
+      "nome": "Cesto de Roupas",
+      "imagem": "https://m.media-amazon.com/images/I/61sfdwf5MaL._AC_SY879_.jpg",
+      "preco": "R$ 39,87",
+      "link": "https://www.amazon.com.br/Cesto-Rattan-Basculada-Litros-Arqplast/dp/B092W7VMMC/ref=sr_1_4?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=23NKYNMSZ4BZJ&dib=eyJ2IjoiMSJ9.7WMQrtl14C7dswkVmdcntC-z3U3lH0B11ogO1uFX8NpPx-9jxJDWv_QtfSDagbboXdBSptq4zlMC69-u3LcSGONZuV41Yh1pm4yu0Np-wvXWb-ItMQB5W89VOh2vDG7Kjoa-jyBcqaLWzzEtQ4qf2wXUM5QZ6g89e3sdCvTSNLrt2spYu57yoKly8qDjF-XLnW1oz3vqAiDb5Tk6oyXI5BsfaiUxo90aiE93ZpKJ6q0.35ozTBuImvu5AdKtXxltaZ0yQt2zO5Zp-zq7vWXZX8w&dib_tag=se&keywords=cesto+de+roupa+suja&qid=1722103237&s=home&sprefix=cesto+de+roupa+suj%2Chome%2C263&sr=1-4"
+    },
+    {
+      "nome": "Lixeira",
+      "imagem": "https://m.media-amazon.com/images/I/41Gle070WdL._AC_SX679_.jpg",
+      "preco": "R$ 39,90",
+      "link": "https://www.amazon.com.br/Lixeira-pedal-polipropileno-litros-preta/dp/B08YDGR7JK/ref=sr_1_8?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=6V5TUTU54IAG&dib=eyJ2IjoiMSJ9.I1PiRLW43Ul5MdJ652FoOaokXhzILDjjpBLhsTTGK_ckCxRCqp4KB4EUMfO4Lhb-MH7Sha0vmDyRQ92CKGzgMSn3TmXjzXNDygJ9rj3uDPrc8oVshc5O1wL-sSSntxbjX0BnzKd6v4A2iTsi_pmLuRHkOricacORsGgVQObNdvqoEHf3Q2h-5Axs3aFOe1BPnPg-g0nWc45GZEtSnrCqeCYnwYYiW0Adg9LpWdXkcq4.u3xjE6lmP64cFN8MDI1jTK1mSoTUzbNBdi4Q2qLmpCY&dib_tag=se&keywords=lixo+para+banheiro&qid=1722103287&s=home&sprefix=lixo+para+bannhierio%2Chome%2C288&sr=1-8"
+    }
+  ]
+}
