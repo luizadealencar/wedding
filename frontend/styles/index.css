@@ -10,6 +10,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .container {
@@ -194,40 +195,12 @@ input {
   color: #333;
 }
 
-.lista-presente{
-  margin: 0;
-}
+
 
 .container h2{
   margin: 8px 0;  
 }
 
-.lista h4{
-  margin: 8px 0;
-}
-
-.lista {
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.lista ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  
-}
-
-.lista li {
-  color: #333;
-  font-size: 18px;
-  margin-bottom: 10px;
-  display: flex;
-
-}
 
 
 footer {
@@ -251,6 +224,8 @@ footer a:hover {
 @media only screen and (max-width: 600px) {
   body {
     align-items: flex-start;
+    
+  overflow-x: hidden;
   }
 
  
@@ -304,6 +279,10 @@ footer a:hover {
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
+  }
+
+  .container{
+    margin-top: 40px;
   }
 
   .container h1 {
