@@ -330,7 +330,6 @@
       "preco": "",
       "link": ""
     }
-
   ],
   "quarto": [
     {
@@ -368,14 +367,14 @@
       "imagem": "",
       "preco": "",
       "link": ""
-    }, 
-  ],
+    },
     {
       "nome": "Ar condicionado 2",
       "imagem": "",
       "preco": "",
       "link": ""
     }
+  ],
   "banheiro": [
     {
       "nome": "Kit Conjunto para Banheiro Bambu 6 Peças",
@@ -495,4 +494,5 @@
       "preco": "",
       "link": ""
     }
+]
 }
