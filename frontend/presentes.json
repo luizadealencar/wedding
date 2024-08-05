@@ -329,6 +329,18 @@
       "imagem": "",
       "preco": "",
       "link": ""
+    },
+    {
+      "nome": "Jogo de Prato 1",
+      "imagem": "",
+      "preco": "",
+      "link": ""
+    },
+    {
+      "nome": "Jogo de Prato 2",
+      "imagem": "",
+      "preco": "",
+      "link": ""
     }
   ],
   "quarto": [
@@ -494,5 +506,5 @@
       "preco": "",
       "link": ""
     }
-]
+  ]
 }
