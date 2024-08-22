@@ -4,8 +4,8 @@ body{
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #f7e4d4;
-  color: #333;
+  background-color: #000000;
+  color: white;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -59,20 +59,12 @@ body{
   margin: 15px;
 }
 
-
-#countdown>div {
-  margin: 0 10px;
-  padding: 10px 20px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-}
-
 nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #1a1a3d;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 100;
   padding: 10px;
@@ -82,7 +74,6 @@ nav::before {
   content: "";
   display: block;
   height: 1px;
-  background-color: #fff;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -106,14 +97,14 @@ nav ul {
 nav ul li a {
   display: block;
   padding: 10px 15px;
-  color: #b85c5c; /* Cor do texto dos links */
+  color: white; /* Cor do texto dos links */
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-  background-color: #b85c5c; /* Cor de fundo ao passar o mouse */
+  background-color: #0d1b2a; /* Cor de fundo ao passar o mouse */
   color: #fff;
 }
 
@@ -122,11 +113,9 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-
 input {
   display: none;
 }
-
 
 #nossa-historia {
   display: flex; /* Cria um container flexbox */
@@ -145,7 +134,8 @@ input {
   display: flex;
   flex-direction: column; /* Empilha os elementos em uma coluna */
   align-items: center; /* Centraliza os elementos na coluna */
-  background-color: #e9d1bb;
+  background-color: #f0f0f0;
+  color: #0d1b2a;
 }
 
 .content {
@@ -183,29 +173,24 @@ input {
   text-align: center;
   cursor: pointer; /* Muda o cursor para uma mãozinha */
   font-family: "Cormorant Garamond", serif;
-  
-  border: 1px solid #ccc;
+  border: 1px solid #0d1b2a;
   border-radius: 5px;
   padding: 8px;
-  background-color: #e9d1bb;
+  background-color: #1a1a3d;
 }
 
 .botao{
   text-decoration: none; /* Remove a linha abaixo do link */
-  color: #333;
+  color: white;
 }
-
-
 
 .container h2{
   margin: 8px 0;  
 }
 
-
-
 footer {
-  background-color: #e9d1bb;
-  color: #333;
+  background-color: #1a1a3d;
+  color: white;
   text-align: center;
   padding: 10px 0;
   width: 100%;
@@ -213,7 +198,7 @@ footer {
 }
 
 footer a {
-  color: #333;
+  color: white;
   text-decoration: none;
 }
 

@@ -4,8 +4,8 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #f7e4d4; /* Cor de fundo suave */
-  color: #333;
+  background-color: #f7e4d4;
+  color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -20,9 +20,8 @@ body {
   margin-top: 60px;
 }
 
-
 h2 {
-  color: #333; /* Cor do título principal */
+  color: white;
   font-size: 36px;
   margin-bottom: 20px;
   text-align: center;
@@ -38,7 +37,7 @@ h2 {
 .lista h4 {
   margin: 20px 0 10px 0;
   font-size: 28px;
-  color: #333;
+  color: white;
 }
 
 .lista ul {
@@ -46,7 +45,7 @@ h2 {
   padding: 0;
   margin: 0;
   width: 100%;
-  max-width: 1000px; /* Limita a largura máxima para um design mais controlado */
+  max-width: 1000px;
 }
 
 .lista li {
@@ -55,25 +54,25 @@ h2 {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  border: 1px solid #ddd; /* Borda sutil para os itens */
+  border: 1px solid #ddd;
   padding: 10px;
-  border-radius: 8px; /* Bordas arredondadas */
+  border-radius: 8px;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  background-color: #fff; /* Fundo branco para os itens */
+  background-color: #fff;
   position: relative;
-  justify-content: space-between; /* Espaça os elementos internos */
+  justify-content: space-between;
 }
 
 .lista li:hover {
-  background-color: #f0e9e3; /* Cor de fundo ao passar o mouse */
-  transform: scale(1.02); /* Leve aumento ao passar o mouse */
+  background-color: #f0e9e3;
+  transform: scale(1.02);
 }
 
 .lista img {
   width: 120px;
   height: 120px;
   object-fit: cover;
-  margin-right: 20px; /* Espaçamento entre a imagem e o nome */
+  margin-right: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -81,30 +80,31 @@ h2 {
 .lista .nome {
   flex: 1;
   text-align: center;
-  margin: 0 20px; /* Espaçamento entre o nome e o preço */
+  margin: 0 20px;
 }
 
 .lista .preco {
-  color: #b85c5c; /* Cor do preço */
+  color: #1a1a3d;
   font-weight: bold;
 }
-.lista-presentes{
+
+.lista-presentes {
   position: relative;
   max-width: 100%;
 }
 
-#lista-de-presentes{
+#lista-de-presentes {
   position: relative;
   max-width: 100%;
   padding: 16px;
 
 }
 
-#lista-de-presentes li{
+#lista-de-presentes li {
   max-width: 100%;
 }
 
-.lista-presentes p{
+.lista-presentes p {
   text-align: justify;
   margin: 0;
   font-weight: bold;
@@ -113,9 +113,11 @@ h2 {
 .payment-info {
   margin-top: 20px;
 }
+
 .qr-code {
   margin-bottom: 20px;
 }
+
 .qr-code img {
   width: 150px;
   height: 150px;
@@ -124,8 +126,7 @@ h2 {
 @media only screen and (max-width: 600px) {
   body {
     align-items: flex-start;
-    
-  overflow-x: hidden;
+    overflow-x: hidden;
   }
 
   .container {
