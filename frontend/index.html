@@ -20,6 +20,8 @@
       <li><a href="#nossa-historia">Nossa História</a></li>
       <li><a href="#festa">Festa Chá Bar!</a></li>
       <li><a href="presentes.html">Lista de Presente</a></li>
+      <li><a href="#festa">Presença</a></li>
+      <li><a href="#fotos">Fotos</a></li>
     </ul>
   </nav>
 
@@ -106,14 +108,48 @@
 
       <a href="presentes.html" class="botao">
         <div class="botao-container">Lista de Presentes</div>
-      </a> 
+      </a>
+    </div>
+
+    <div class="rsvp" id="rsvp">
+      <h1>Confirme sua Presença</h1>
+      <p>Estamos ansiosos para celebrar com você! Por favor, confirme sua presença preenchendo o formulário abaixo:</p>
+
+      <form id="rsvpForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="attendance">Você irá comparecer?</label>
+        <select id="attendance" name="attendance" required>
+          <option value="">Selecione uma opção</option>
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+        <div class="botao-enviar">Enviar</div>
+      </form>
+
+      <div id="responseMessage"></div>
+    </div>
+
+    <div class="fotos" id="fotos">
+      <h1>Fotos da Festa</h1>
+      <p>Disponibilizaremos um link no Drive para que possamos juntos colocar as fotos e os vídeos deste dia tão especial para nós!
+        <a href="drive.com" class="botao">
+          <div class="botao-container">Fotos</div>
+        </a>
+      </p>
+    </div>
+
   </div>
   <footer>
-    <p>Desenvolvido por: 
-        <a href="https://github.com/luizadealencar" target="_blank">Luiza de Alencar</a> e 
-        <a href="https://github.com/EmersonLaranja" target="_blank">Emerson Laranja</a>
+    <p>Desenvolvido por:
+      <a href="https://github.com/luizadealencar" target="_blank">Luiza de Alencar</a> e
+      <a href="https://github.com/EmersonLaranja" target="_blank">Emerson Laranja</a>
     </p>
-</footer>
+  </footer>
   <script src="js/index.js"></script>
 </body>
 
