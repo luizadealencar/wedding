@@ -57,9 +57,6 @@ function countdown() {
     const menuToggle = document.querySelector('.menu-toggle');
     const menu = document.querySelector('.menu');
   
-    menuToggle.addEventListener('click', function() {
-      menu.classList.toggle('open');
-    });
   });
 
   
@@ -110,25 +107,17 @@ function countdown() {
         .catch(error => console.error('Erro ao carregar o JSON:', error));
 });
 
-document.getElementById('rsvpForm').addEventListener('submit', function(event) {
-  event.preventDefault();
+document.getElementById("rsvpForm").addEventListener("submit", function(event) {
+  event.preventDefault(); 
 
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const attendance = document.getElementById('attendance').value;
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const attendance = document.getElementById("attendance").value;
 
   if (name && email && attendance) {
-      const responseMessage = document.getElementById('responseMessage');
-
-      if (attendance === 'sim') {
-          responseMessage.textContent = `Obrigado por confirmar sua presença, ${name}! Estamos ansiosos para vê-lo(a).`;
-          responseMessage.style.color = "green";
-      } else {
-          responseMessage.textContent = `Lamentamos que você não possa comparecer, ${name}.`;
-          responseMessage.style.color = "red";
-      }
-
-      document.getElementById('rsvpForm').reset();
+    const message = `Obrigada, ${name}! Sua resposta (${attendance}) foi registrada.`;
+    document.getElementById("responseMessage").textContent = message;
+  } else {
+    document.getElementById("responseMessage").textContent = "Por favor, preencha todos os campos.";
   }
 });
-

@@ -65,32 +65,33 @@ form {
 }
 
 label {
-  margin-top: 15px;
   font-weight: bold;
   text-align: left;
   width: 100%;
   max-width: 400px;
 }
 
-input {
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 1em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+input[type="text"], input[type="email"] {
+  display: inline-block;
   width: 100%;
-  max-width: 400px;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
+#attendance{
+  padding: 6px;
+  border-radius: 10px;
+}
 
 button:hover {
   background-color: #4cae4c;
 }
 
 #responseMessage {
-  margin-top: 20px;
   font-size: 1.2em;
-  color: #333;
 }
 
 nav {
@@ -181,7 +182,6 @@ input {
   background-color: #f0f0f0;
   color: #0d1b2a;
 }
-
 
 .content {
   display: flex;
