@@ -113,24 +113,35 @@
 
     <div class="rsvp" id="rsvp">
       <h1>Confirme sua Presença</h1>
-      <p>Estamos ansiosos para celebrar com você! Por favor, confirme sua presença preenchendo o formulário abaixo:</p>
-
-      <form id="rsvpForm">
-        <label for="name">Nome:</label>
+      
+      <p>Estamos ansiosos para celebrar com você! Por favor, confirme sua presença preenchendo o formulário abaixo e mande uma mensagem diretamente para Luiza e Emerson via WhatsApp!</p>
+    
+      <form id="rsvpForm" onsubmit="enviarConfirmacao(); return false;">
+        <label for="name">Seu Nome:</label>
         <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
+    
+        <label for="bringGuests">Levará acompanhantes?</label>
+        <select id="bringGuests" name="bringGuests" onchange="toggleGuestInput()" required>
+          <option value="">Selecione uma opção</option>
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+    
+        <div id="guestNamesInput" style="display:none;">
+          <label for="guestNames">Nomes dos acompanhantes (separe por vírgula):</label>
+          <input type="text" id="guestNames" name="guestNames" placeholder="Nomes dos acompanhantes">
+        </div>
+    
         <label for="attendance">Você irá comparecer?</label>
         <select id="attendance" name="attendance" required>
           <option value="">Selecione uma opção</option>
           <option value="sim">Sim</option>
           <option value="nao">Não</option>
         </select>
-
-        <button type="submit" class="botao-enviar">Enviar</button>
+    
+        <button type="submit" class="botao-enviar">Enviar para Luiza e Emerson</button>
       </form>
+      
       <div id="responseMessage"></div>
     </div>
 
