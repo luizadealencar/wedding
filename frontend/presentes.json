@@ -327,7 +327,7 @@
     {
       "nome": "Lava-Louças",
       "imagem": "https://brastemp.vtexassets.com/arquivos/ids/224004-500-500?v=637699034121630000&width=500&height=500&aspect=true",
-      "preco": "R$ R$ 3.561,55",
+      "preco": "R$ 3.561,55",
       "link": "https://www.brastemp.com.br/lava-loucas-10-servicos-brastemp-cor-inox-com-ciclo-pesado/p"
     },
     {
@@ -397,7 +397,9 @@
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/235610-800-800?v=638313479148200000&width=800&height=800&aspect=true",
       "preco": "R$ 2.199,00",
       "link": "https://loja.electrolux.com.br/ar-condicionado-electrolux-color-adapt-9-000-btus-quente-frio--ui09r-ue09r-/p"
-    },
+    }
+  ],
+  "escritorio": [
     {
       "nome": "Ar condicionado 2",
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/235610-800-800?v=638313479148200000&width=800&height=800&aspect=true",
@@ -413,31 +415,31 @@
       "link": "https://www.amazon.com.br/Plasvale-Conjunto-Banheiro-Bambu-Pe%C3%A7as/dp/B0C3BG2LXJ/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=23PB6X0SJZSF0&dib=eyJ2IjoiMSJ9.nsirkCrQlKVcbXrg2iNfvSStB6C_LGWHtGfOwstdTf1XLwkwtH9Sj0fygYGgubnhxAF2yzvHk5WYsFIJBWKH-D758cyoGOLQIjkVlgiILlUU1xHTkocQnTNYDYSKGTh326rd4b_TYS_vpB-ixNDmnqzXYBV5GCIU9iTmKm8FRaWKpCfOM4VMCjeV6rU8T5BquOwhn3zg6xxieJeigLrYSsDO6r18bmRaMtU0SEJfaiI.zdH_dalDTS2MD3XNbDSEkt-_fhJf7IAKRvBc-qGEH6s&dib_tag=se&keywords=kit+de+banheiro&qid=1722102371&s=home&sprefix=kit+de+banheir%2Chome%2C413&sr=1-5"
     },
     {
-      "nome": "Toalhas de Banho",
+      "nome": "Jogo de Banho 1",
       "imagem": "https://m.media-amazon.com/images/I/61hBBeZRtyL.__AC_SX300_SY300_QL70_ML2_.jpg",
       "preco": "R$ 48,00",
       "link": "https://www.amazon.com.br/Toalha-Banho-Felpuda-Gigantes-Canad%C3%A1/dp/B0BYTG1L9M/ref=sr_1_21?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2NRGYYCXMVZM&dib=eyJ2IjoiMSJ9.970LCkrh8xl5kGLetHPGKk20MSM2PYbADHBlkrff0irGjHj071QN20LucGBJIEps.QYyi8dbv4w2dV_Gq4T3biH3O0vHtFzreTNjeiyLfRpI&dib_tag=se&keywords=toalha%2Bde%2Bbanho&qid=1722102879&s=home&sprefix=toalha%2Bde%2Bbanho%2Chome%2C279&sr=1-21&th=1"
     },
     {
-      "nome": "Jogo de Toalhas",
+      "nome": "Jogo de Banho 2",
       "imagem": "https://m.media-amazon.com/images/I/61G4yIUf0rL._AC_SX679_.jpg",
       "preco": "R$ 189,90",
       "link": "https://www.amazon.com.br/Toalhas-Buddemeyer-Frape-Banho-Caramelo/dp/B0CV8TP331/ref=sr_1_31?adgrpid=117911635862&dib=eyJ2IjoiMSJ9.mQVumWhv2EUj_bcDbSyO7y13y-47T91cMTgNhZXmlOZmFliMRe8a8tY6ZPCcMDupB5NAevTQQFvONQawxbKECZVuS885J-E5g8y_1U1wXHDaV0mcYxU166a-ccpUCZXV8ZydaBEp3FWV1JhC1HEEyaVWysipaOo0OmLDhA--fuGNPKAsHp8xVB1MUTwgRtBRxwrKkd1WrpxNaYQEY5uq5jOGX46oTGGJAWG_Tz-tXCz3vQsKSuHzGXmQYt60c8YqTbQxIzY9hsAMcGWSt9_SKq5Wq7QJd2u3Bb0K3T4UEmo.Eeg5CEyx-BNnQKmriQbN0b7_xVAdRcZZAX6AA4ziVY4&dib_tag=se&hvadid=595972907033&hvdev=c&hvlocphy=9196955&hvnetw=g&hvqmt=e&hvrand=10835156757230499932&hvtargid=kwd-563601567&hydadcr=18436_13492555&keywords=toalha%2Bde%2Bbanho&qid=1722102946&sr=8-31&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e&th=1"
     },
     {
-      "nome": "Jogo de Toalhas",
+      "nome": "Jogo de Banho 3",
       "imagem": "https://m.media-amazon.com/images/I/812hGKA5VhL.__AC_SX300_SY300_QL70_ML2_.jpg",
       "preco": "R$ 219,00",
       "link": "https://www.amazon.com.br/Buddemeyer-Vanilla-Algod%C3%A3o-Toalha-Absor%C3%A7%C3%A3o/dp/B0CYTFPNZF/ref=sr_1_29?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2NRGYYCXMVZM&dib=eyJ2IjoiMSJ9.970LCkrh8xl5kGLetHPGKk20MSM2PYbADHBlkrff0ioIm1tzcEpFN-oE55MPr7wI5CjX-P8z1qDvUNUjcvY-F_UU4JUjXPfL3Ytp7xb0Z7JLYnR1a762HcfsQWTRi5kBERYCgosI6KD36BKClkALC3Fa_rpbsSs9VujzcLlsDnDJ11ORbTryPa3BKI2QUimcOOebj5iPVxEFYrSKUaii8fajXyfH1VyaNGtfYOCL4iE.tqasy2Y_bkQk9lfzvMQgsVImujKZGjZgB4bAliMOWgc&dib_tag=se&keywords=toalha%2Bde%2Bbanho&qid=1722103022&s=home&sprefix=toalha%2Bde%2Bbanho%2Chome%2C279&sr=1-29&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e&th=1"
     },
     {
-      "nome": "Tapete de Banheiro",
+      "nome": "Tapete de Banheiro 1",
       "imagem": "https://m.media-amazon.com/images/I/61kn9acYchL._AC_SX679_.jpg",
       "preco": "R$ 29,90",
       "link": "https://www.amazon.com.br/Tapete-Banheiro-Absorvente-Antiderrapante-Minicasa/dp/B0CZ1QK5XB/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=HYXIJRBSL9PV&dib=eyJ2IjoiMSJ9.q_SHyyVBewGrPKBJ8VYWFZ3CmpYkM8KzrC5hZULvUFaO46LGkWLLDJKOSPVuYZzTn9SippjIioVWme2OVrux-R6jiu19cP6eKLvNZtRejT6pqHh1BkP0n63ELybb3z0RuKnN8Ztkgb5YHyiNZ9CeogjaZe-Nq3eWKM2a5-0529x7uUbpFNe4uq0Z_Qqmkj2TjJwDqjwtTmRnbIuDYFu0OT2RdHvL-egjZ3e6YXyjzPg.sACcKXb6evfMt3vP1Q3pT3G5TZawgtfh-aDOCF398as&dib_tag=se&keywords=tapete+antiderrapante+para+banheiro&qid=1722103104&s=home&sprefix=tapede+antiderrapante+para+banheiro%2Chome%2C277&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
     },
     {
-      "nome": "2 Tapete de Banheiro",
+      "nome": "Tapete de Banheiro 2",
       "imagem": "https://m.media-amazon.com/images/I/61kn9acYchL._AC_SX679_.jpg",
       "preco": "R$ 49,99",
       "link": "https://www.amazon.com.br/Tapetes-Banheiro-Antiderrapante-Casa-Dona/dp/B0CJ9WTZKW/ref=sr_1_9?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=HYXIJRBSL9PV&dib=eyJ2IjoiMSJ9.q_SHyyVBewGrPKBJ8VYWFZ3CmpYkM8KzrC5hZULvUFaO46LGkWLLDJKOSPVuYZzTn9SippjIioVWme2OVrux-R6jiu19cP6eKLvNZtRejT6pqHh1BkP0n63ELybb3z0RuKnN8Ztkgb5YHyiNZ9CeogjaZe-Nq3eWKM2a5-0529x7uUbpFNe4uq0Z_Qqmkj2TjJwDqjwtTmRnbIuDYFu0OT2RdHvL-egjZ3e6YXyjzPg.sACcKXb6evfMt3vP1Q3pT3G5TZawgtfh-aDOCF398as&dib_tag=se&keywords=tapete+antiderrapante+para+banheiro&qid=1722103167&s=home&sprefix=tapede+antiderrapante+para+banheiro%2Chome%2C277&sr=1-9"
@@ -458,9 +460,9 @@
   "sala": [ 
     {
       "nome": "Sofá",
-      "imagem": "https://product-hub-prd.madeiramadeira.com.br/118003842/images/8730720d-d37b-46e0-9f20-8357f962979fstandardresolution.jpg?width=700&canvas=1:1&bg-color=FFF",
-      "preco": "R$ 2.141,99",
-      "link": "https://www.madeiramadeira.com.br/sofa-tango-2-20m-sem-caixa-retratil-e-reclinavel-velosuede-areia-netsofas-118003842.html?origem=pla-118003842&id=118003842&buildId=QAc4ezBcbxWZzSJr3_wfM"
+      "imagem": "",
+      "preco": "",
+      "link": ""
     },
     {
       "nome": "Televisão",
