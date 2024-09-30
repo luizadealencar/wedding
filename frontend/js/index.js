@@ -121,3 +121,44 @@ document.getElementById("rsvpForm").addEventListener("submit", function(event) {
     document.getElementById("responseMessage").textContent = "Por favor, preencha todos os campos.";
   }
 });
+
+function toggleGuestInput() {
+  const bringGuests = document.getElementById("bringGuests").value;
+  const guestNamesInput = document.getElementById("guestNamesInput");
+  
+  if (bringGuests === "sim") {
+    guestNamesInput.style.display = "block";
+  } else {
+    guestNamesInput.style.display = "none";
+  }
+}
+
+function enviarConfirmacao() {
+  const nome = document.getElementById("name").value;
+  const bringGuests = document.getElementById("bringGuests").value;
+  const guestNamesInput = document.getElementById("guestNames").value;
+  const attendance = document.getElementById("attendance").value;
+  let mensagem = "";
+
+  if (attendance === "sim") {
+    let guestMessage = "";
+
+    if (bringGuests === "sim" && guestNamesInput) {
+      const guestNames = guestNamesInput.split(',').map(name => name.trim()).filter(name => name !== "");
+      if (guestNames.length > 0) {
+        guestMessage = ` Estarei acompanhado(a) de ${guestNames.join(", ")}.`;
+      }
+    }
+
+    mensagem = `Olá, sou ${nome} e confirmo minha presença no casamento!${guestMessage}`;
+  } else if (attendance === "nao") {
+    mensagem = `Olá, sou ${nome}, infelizmente não poderei comparecer ao casamento.`;
+  }
+
+  const encodedMessage = encodeURIComponent(mensagem);
+  const whatsappUrl = `https://wa.me/27999335530?text=${encodedMessage}`;
+
+  window.open(whatsappUrl, "_blank");
+
+  document.getElementById("responseMessage").innerHTML = "Obrigado por confirmar!";
+}
