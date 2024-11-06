@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #fafafa; /* Fundo neutro para melhor contraste */
+  color: #333; /* Cor de texto escura para melhor legibilidade */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  padding: 20px;
+  max-width: 100%;
+  background-color: #ffffff; /* Fundo branco para contraste com o texto */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #1a1a3d; /* Azul escuro para combinar com tema elegante */
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista h4 {
+  margin: 20px 0 10px 0;
+  font-size: 28px;
+  color: #1a1a3d;
+}
+
+.lista ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.lista li {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: #ffffff;
+  position: relative;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lista li:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.02);
+}
+
+.lista img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista .nome {
+  flex: 1;
+  text-align: center;
+  color: #1a1a3d; /* Azul escuro */
+  margin: 0 20px;
+}
+
+.lista .preco {
+  color: #d67a0c; /* Cor de destaque para o preço */
+  font-weight: bold;
+}
+
+.lista-presentes p {
+  text-align: justify;
+  color: #333; /* Cor escura para fácil leitura */
+  margin: 0;
+  font-weight: normal;
+}
+
+.payment-info {
+  margin-top: 20px;
+  color: #555;
+}
+
+.qr-code {
+  margin-bottom: 20px;
+}
+
+.qr-code img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filtros label, .filtros input, .filtros button {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 10px;
+}
+
+.filtros input[type="radio"] {
+  margin-right: 5px;
+}
+
+.filtros button {
+  padding: 8px 12px;
+  background-color: #d67a0c; /* Botão de filtro com cor de destaque */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filtros button:hover {
+  background-color: #b96509; /* Escurecendo o botão ao passar o mouse */
+}
+
+.filtros {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filtros label, .filtros input, .filtros select {
+  margin: 5px 0;
+}
+
+.filtros select, .filtros input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.filtros button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    align-items: flex-start;
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 10px;
+    margin-top: 40px;
+  }
+
+  .lista li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .lista img {
+    margin-bottom: 10px;
+  }
+
+  .lista .nome,
+  .lista .preco {
+    text-align: left;
+  }
+
+  .lista .preco {
+    margin-left: 0;
+  }
+}

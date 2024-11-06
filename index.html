@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contagem Regressiva para o Casamento</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#nossa-historia">Nossa História</a></li>
+      <li><a href="#festa">Festa Chá Bar!</a></li>
+      <li><a href="presentes.html">Lista de Presente</a></li>
+      <li><a href="#rsvp">Presença</a></li>
+      <li><a href="#fotos">Fotos</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1 id="home">Casamento Emerson & Luiza</h1>
+    <div class="countdown-container">
+      <div id="countdown"></div>
+      <div class="names">
+        <div class="left-name">
+          <p>Luiza de Alencar</p>
+          <p>Mãe: Fernanda Molinaro de Alencar</p>
+          <p>Pai: Alain Delon de Alencar Silva</p>
+        </div>
+        <div class="right-name">
+          <p>Emerson Laranja dos Santos</p>
+          <p>Mãe: Eloá Laranja</p>
+          <p>Pai: Ederaldo dos Santos</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text" id="nossa-historia">
+      <h1>Nossa História</h1>
+      <div class="content">
+        <img src="img/foto2.jpg" alt="Foto do casal" />
+        <p>
+          Tudo começou em um culto universitário na UFES. Ele, estudante de engenharia da computação, eu, cursando
+          sistema de informação no IFES. Nosso primeiro encontro foi casual, graças a um amigo em comum. Ele ofereceu
+          carona, perguntou se eu queria ir, e assim começamos a nos conhecer.
+        </p>
+      </div>
+
+      <div class="content2">
+        <img src="img/foto6.jpg" alt="igreja" />
+        <p>
+          Descobrimos nossa afinidade por músicas, especialmente por Oficina G3, durante essa carona de volta para casa.
+          Trocamos muitas mensagens sobre isso. Planejamos ir a um show da banda, mas ele teve que viajar a trabalho.
+          Mas um dia antes do show, ele pediu para me ver. Nos encontramos no restaurante do Tyler, rimos, conversamos,
+          e ali, nosso primeiro encontro se desenhou. Simples assim, nossa história começou.
+        </p>
+      </div>
+      <div class="content">
+        <img src="img/foto.png" alt="igreja" />
+        <p>
+          Após o primeiro encontro, nós ficamos conversando sobre a igreja, nós ficamos visitando um do outro, mas como
+          a Luiza sempre aprendeu a seguir o futuro esposo, a escolha foi ficar na igreja do Emerson.
+        </p>
+      </div>
+      <div class="content2">
+        <img src="img/foto5.jpg" alt="corte" />
+        <p>
+          A igreja do Emerson, pede para que os voluntários façam corte no namoro, e como ele toca guitarra na igreja,
+          foi preciso esse acordo entre nós. Não é fácil, mas com o tempo a Luiza conseguiu entender o motivo, ao longo
+          do tempo no nosso namoro conversamos sobre tudo, a corte ela serve exatamente para isso: nos conhecermos.
+          Conversamos sobre cada detalhe de nós do passado, do presente e no futuro. Viramos muito mais que namorados,
+          temos uma amizade sincera, construímos uma ligação que nos entedemos muito bem.
+        </p>
+      </div>
+      <div class="content">
+        <img src="img/foto4.jpg" alt="igreja" />
+        <p>
+          As conversas ficaram maduras com o passar do tempo, sonhando na casa, nos filhos, na vida profissional. Surgiu
+          a oportunidade de fazermos o curso de noivos, foi bastante impactante para nós, nos conhecemos mais profundo
+          ainda, e vimos que precisamos melhorar alguns pontos.
+        </p>
+      </div>
+      <div class="content2">
+        <img src="img/foto3.jpg" alt="casar" />
+        <p>
+          Assim que nós dois terminamos as nossas faculdades, recebemos propostas melhores de emprego, conseguimos
+          comprar o nosso apartamento, e futuramente a Luiza pedida em noivado, e assim, podemos continuar com a nossa
+          história.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="festa" id="festa">
+    <h1>Festa Chá Bar!</h1>
+    <p>Os nossos planos nunca foi fazer a Cerimônia na Igreja e a Festa, pois queremos viajar &#128513;. Então
+      programamos um Chá Bar de Panela com todos os nossos familiares e amigos com uma <strong>Festa junto à
+        ele</strong>, se programe para ficar de 15h até às 22h. Vamos ter bastante brincadeiras para serem zoadas com os
+      noivos, muita comida, e a noite teremos àquele jantar junto com uma banda que vai ser montada ainda. Te espero no
+      dia tal, às 15h, no local tal, terá espaço e brinquedos para as crianças.</p>
+
+    <a href="presentes.html" class="botao">
+      <div class="botao-container">Lista de Presentes</div>
+    </a>
+  </div>
+
+  <div class="rsvp" id="rsvp">
+    <h1>Confirme sua Presença</h1>
+    <p>Estamos ansiosos para celebrar com você! Por favor, confirme sua presença preenchendo o formulário abaixo e mande
+      uma mensagem diretamente para Luiza e Emerson via WhatsApp!</p>
+
+    <form id="rsvpForm" onsubmit="enviarConfirmacao(); return false;">
+      <label for="name">Seu Nome:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="bringGuests">Levará acompanhantes?</label>
+      <select id="bringGuests" name="bringGuests" onchange="toggleGuestInput()" required>
+        <option value="">Selecione uma opção</option>
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
+
+      <div id="guestNamesInput" style="display:none;">
+        <label for="guestNames">Nomes dos acompanhantes (separe por vírgula):</label>
+        <input type="text" id="guestNames" name="guestNames" placeholder="Nomes dos acompanhantes">
+      </div>
+
+      <label for="attendance">Você irá comparecer?</label>
+      <select id="attendance" name="attendance" required>
+        <option value="">Selecione uma opção</option>
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
+
+      <button type="submit" class="botao-enviar">Enviar para Luiza e Emerson</button>
+    </form>
+
+    <div id="responseMessage"></div>
+  </div>
+
+  <div class="fotos" id="fotos">
+    <h1>Fotos da Festa</h1>
+    <p>Disponibilizaremos um link no Drive para que possamos juntos colocar as fotos e os vídeos deste dia tão especial
+      para nós!
+      <a href="drive.com" class="botao">
+        <div class="botao-container">Fotos</div>
+      </a>
+    </p>
+  </div>
+
+  </div>
+  <footer>
+    <p>Desenvolvido por:
+      <a href="https://github.com/luizadealencar" target="_blank">Luiza de Alencar</a> e
+      <a href="https://github.com/EmersonLaranja" target="_blank">Emerson Laranja</a>
+    </p>
+  </footer>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
