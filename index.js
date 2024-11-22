@@ -162,3 +162,18 @@ function enviarConfirmacao() {
 
   document.getElementById("responseMessage").innerHTML = "Obrigado por confirmar!";
 }
+
+// Lógica para deslizar o carrossel
+let carousel = document.querySelector('.carousel');
+let index = 0;
+let totalItems = document.querySelectorAll('.carousel-item').length;
+
+function slideCarousel() {
+  // A cada 3 segundos, mover uma imagem para a esquerda
+  carousel.style.transform = `translateX(-${index * 100}%)`;
+  index = (index + 1) % totalItems;
+}
+
+// Iniciar o carrossel
+setInterval(slideCarousel, 3000); // 3 segundos de intervalo
+

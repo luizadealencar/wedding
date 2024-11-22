@@ -4,29 +4,82 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #fafafa; /* Fundo neutro para melhor contraste */
-  color: #333; /* Cor de texto escura para melhor legibilidade */
+  background-color: #fafafa;
+  color: #333;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
+  padding-top: 60px; /* Adiciona um espaço no topo */
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a1a3d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+nav::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #0d1b2a;
+  color: #fff;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
 }
 
 .container {
   position: relative;
   padding: 20px;
   max-width: 100%;
-  background-color: #ffffff; /* Fundo branco para contraste com o texto */
+  background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  margin: 10px 0;
+}
+
+.container p{
+  color: #1a1a3d;
+  margin: 0;
+  font-weight: bold;
 }
 
 h2 {
   color: #1a1a3d; /* Azul escuro para combinar com tema elegante */
   font-size: 36px;
-  margin-bottom: 20px;
-  text-align: center;
+  margin: 0;
 }
 
 .lista {
@@ -83,8 +136,7 @@ h2 {
 .lista .nome {
   flex: 1;
   text-align: center;
-  color: #1a1a3d; /* Azul escuro */
-  margin: 0 20px;
+  color: #1a1a3d;
 }
 
 .lista .preco {
@@ -104,10 +156,6 @@ h2 {
   color: #555;
 }
 
-.qr-code {
-  margin-bottom: 20px;
-}
-
 .qr-code img {
   width: 150px;
   height: 150px;
@@ -115,10 +163,11 @@ h2 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.filtros label, .filtros input, .filtros button {
-  font-size: 16px;
-  color: #333;
+.filtros label, .filtros input{
   margin: 5px 10px;
+  padding: 0;
+  text-align: left;
+  font-weight: bold;
 }
 
 .filtros input[type="radio"] {
@@ -126,12 +175,6 @@ h2 {
 }
 
 .filtros button {
-  padding: 8px 12px;
-  background-color: #d67a0c; /* Botão de filtro com cor de destaque */
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
@@ -142,11 +185,6 @@ h2 {
 .filtros {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-}
-
-.filtros label, .filtros input, .filtros select {
-  margin: 5px 0;
 }
 
 .filtros select, .filtros input {
@@ -162,6 +200,9 @@ h2 {
   background-color: #333;
   color: white;
   cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
 }
 
 
@@ -193,4 +234,22 @@ h2 {
   .lista .preco {
     margin-left: 0;
   }
+}
+
+footer {
+  background-color: #1a1a3d;
+  color: white;
+  text-align: center;
+  padding: 6px 0;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
