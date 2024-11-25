@@ -15,6 +15,7 @@ body {
   max-width: 100%;
   margin-top: 40px;
   text-align: center;
+  animation: fadeIn 1s ease-out;
 }
 
 .names {
@@ -37,31 +38,44 @@ body {
 
 .container h1 {
   margin: 5px;
-  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .countdown-container {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 #countdown {
   font-size: 20px;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+}
+
+#countdown>div {
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .text p,
 .festa p,
-.rsvp p, .fotos p {
+.rsvp p,
+.fotos p {
   font-size: 18px;
   margin: 10px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 6px 30px;
 }
 
 label {
@@ -71,19 +85,27 @@ label {
   max-width: 400px;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
   display: inline-block;
   width: 100%;
-  padding: 8px;
-  margin: 5px 0;
+  padding: 12px;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
 }
 
-#attendance{
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #4cae4c;
+}
+
+#attendance,
+#bringGuests {
   padding: 6px;
   border-radius: 10px;
+  border: 1px solid #ccc;
 }
 
 button:hover {
@@ -92,6 +114,7 @@ button:hover {
 
 #responseMessage {
   font-size: 1.2em;
+  color: #4cae4c;
 }
 
 nav {
@@ -111,7 +134,6 @@ nav::before {
   width: 100%;
 }
 
-
 nav ul {
   list-style-type: none;
   display: flex;
@@ -119,12 +141,6 @@ nav ul {
   align-items: center;
   margin: 0;
   padding: 0;
-}
-
-.text h1,
-.festa h1,
-.rsvp h1, .fotos h1 {
-  font-size: 40px;
 }
 
 nav ul li a {
@@ -146,28 +162,13 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-#countdown>div {
-  margin: 5px;
-  padding: 5px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-}
-
-input {
-  display: none;
-}
-
-#nossa-historia{
+#nossa-historia,
+.imagens {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 16px;
-  max-width: 100%;
-}
-
-#nossa-historia h1,
-.imagens h1 {
-  text-align: right;
+  position: relative;
 }
 
 .text {
@@ -181,36 +182,72 @@ input {
 .rsvp {
   background-color: #f0f0f0;
   color: #0d1b2a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .content {
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+  justify-content: center;
   align-items: center;
+  margin: 12px auto;
+  position: relative;
+  gap: 10px;
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
 }
 
 .content img {
-  max-width: 30%;
+  max-width: 100%;
+  /* A imagem ocupará toda a largura */
   height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease;
 }
 
-.content2 {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  flex-direction: row-reverse;
-  align-items: center;
+.content:hover img {
+  transform: scale(1.05);
 }
 
-.content2 img {
-  max-width: 30%;
-  height: auto;
+.content p {
+  position: absolute;
+  top: 50%;
+  /* Centralizar verticalmente */
+  left: 50%;
+  /* Centralizar horizontalmente */
+  transform: translate(-50%, -50%);
+  /* Ajuste para centralizar com precisão */
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  margin: 0;
+  padding: 6px;
+  text-align: justify;
+  max-width: 600px;
+  /* Limitar a largura do texto */
 }
 
-.festa, .fotos{
+
+.festa,
+.fotos {
   text-align: center;
   margin: 8px;
+}
+
+#home {
+  font-size: 60px;
+}
+
+.text h1,
+.festa h1,
+.rsvp h1,
+.fotos h1 {
+  margin: 0;
+  font-size: 40px;
 }
 
 .botao-container {
@@ -220,8 +257,13 @@ input {
   font-family: "Cormorant Garamond", serif;
   border: 1px solid #0d1b2a;
   border-radius: 5px;
-  padding: 8px;
+  padding: 10px;
   background-color: #1a1a3d;
+  transition: background-color 0.3s ease;
+}
+
+.botao-container:hover {
+  background-color: #4cae4c;
 }
 
 .botao {
@@ -229,7 +271,7 @@ input {
   color: white;
 }
 
-.botao-enviar{
+.botao-enviar {
   text-decoration: none;
   color: white;
   display: inline-block;
@@ -238,21 +280,21 @@ input {
   font-family: "Cormorant Garamond", serif;
   border: 1px solid #0d1b2a;
   border-radius: 5px;
-  padding: 8px;
+  padding: 10px;
   background-color: #1a1a3d;
-  margin-top: 6px;
-
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
 
-.container h2 {
-  margin: 8px 0;
+.botao-enviar:hover {
+  background-color: #4cae4c;
 }
 
 footer {
   background-color: #1a1a3d;
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 6px 0;
   width: 100%;
   bottom: 0;
 }
@@ -266,18 +308,22 @@ footer a:hover {
   text-decoration: underline;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   body {
     align-items: flex-start;
-
     overflow-x: hidden;
   }
 
-
-
-  nav {
-    padding: 4px;
-  }
 
   nav ul li a {
     padding: 5px;
@@ -349,4 +395,45 @@ footer a:hover {
     display: flex;
     align-items: center;
   }
+  #home {
+    font-size: 35px;
+    margin-top: 60px;
+  }
 }
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 0;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Tornar o carrossel com movimento contínuo */
+.carousel-container:hover .carousel {
+  animation: slide 30s infinite linear;
+}
+
+/* Ajuste de estilo para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+  .carousel-item p {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
