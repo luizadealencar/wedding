@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     let presentesData = {};
 
-    fetch('luizadealencar/wedding/frontend/presentes.json')
+    fetch('presentes.json')
         .then(response => response.json())
         .then(data => {
             presentesData = data;

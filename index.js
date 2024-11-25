@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   console.log("ENTREI AQUI");
-  fetch('luizadealencar/wedding/frontend/presentes.json')
+  fetch('presentes.json')
     .then(response => {
       console.log("response", response);
       return response.json();
