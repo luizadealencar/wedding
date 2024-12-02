@@ -220,32 +220,56 @@ h2 {
     margin-top: 40px;
   }
 
-  .lista li {
-    flex-direction: column;
-    color: #333;
-    font-size: 18px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    background-color: #ffffff;
-    position: relative;
-    justify-content: space-between;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-
-  .lista .nome,
-  .lista .preco {
-    text-align: left;
-  }
-
-  .lista .preco {
-    margin-left: 0;
-  }
+.lista ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens se envolvam em várias linhas */
+  justify-content: space-between; /* Espaçamento entre os itens */
 }
+
+.lista li {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  flex: 0 0 48%; /* Definindo a largura para aproximadamente metade da linha, com algum espaço */
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: #ffffff;
+  position: relative;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lista li:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.02);
+}
+
+.lista img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista .nome {
+  flex: 1;
+  text-align: center;
+  color: #1a1a3d;
+}
+
+.lista .preco {
+  color: #d67a0c; /* Cor de destaque para o preço */
+  font-weight: bold;
+}
+
 
 footer {
   background-color: #1a1a3d;
