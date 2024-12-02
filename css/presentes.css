@@ -231,26 +231,26 @@ h2 {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    gap: 16px; /* Espaçamento entre os itens */
   }
 
   .lista li {
     color: #333;
     font-size: 18px;
-    margin-bottom: 20px;
     display: flex;
-    flex: 0 0 48%; /* 48% para dois itens por linha com espaçamento */
+    flex-direction: column; /* Organiza os elementos em coluna */
     align-items: center;
+    justify-content: space-between;
+    width: 48%; /* Garante 2 itens por linha */
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     background-color: #ffffff;
     position: relative;
-    justify-content: space-between;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 200px; /* Define uma altura fixa para garantir que todos os itens tenham o mesmo tamanho */
+    height: 250px; /* Garantindo altura fixa */
+    box-sizing: border-box;
   }
 
   .lista li:hover {
@@ -270,11 +270,13 @@ h2 {
     flex: 1;
     text-align: center;
     color: #1a1a3d;
+    margin-top: 10px;
   }
 
   .lista .preco {
     color: #d67a0c;
     font-weight: bold;
+    margin-top: 5px;
   }
 
   footer {
