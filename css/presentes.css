@@ -231,7 +231,7 @@ h2 {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -240,8 +240,7 @@ h2 {
     font-size: 18px;
     margin-bottom: 20px;
     display: flex;
-    flex: 0 0 48%;
-    /* Definindo a largura para aproximadamente metade da linha, com algum espaço */
+    flex: 0 0 48%; /* 48% para dois itens por linha com espaçamento */
     align-items: center;
     border: 1px solid #ddd;
     padding: 10px;
@@ -251,6 +250,7 @@ h2 {
     position: relative;
     justify-content: space-between;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 200px; /* Define uma altura fixa para garantir que todos os itens tenham o mesmo tamanho */
   }
 
   .lista li:hover {
@@ -274,10 +274,8 @@ h2 {
 
   .lista .preco {
     color: #d67a0c;
-    /* Cor de destaque para o preço */
     font-weight: bold;
   }
-
 
   footer {
     background-color: #1a1a3d;
