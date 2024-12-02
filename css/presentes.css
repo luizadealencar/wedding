@@ -101,10 +101,6 @@ h2 {
   margin: 0;
   width: 100%;
   max-width: 1000px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .lista li {
@@ -225,8 +221,9 @@ h2 {
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap; /* Permite que os itens se envolvam em várias linhas */
-  justify-content: space-between; /* Espaçamento entre os itens */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .lista li {
