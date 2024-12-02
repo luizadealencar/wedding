@@ -11,7 +11,8 @@ body {
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  padding-top: 60px; /* Adiciona um espaço no topo */
+  padding-top: 60px;
+  /* Adiciona um espaço no topo */
 }
 
 
@@ -70,14 +71,15 @@ nav ul li a:hover {
   margin: 10px 0;
 }
 
-.container p{
+.container p {
   color: #1a1a3d;
   margin: 0;
   font-weight: bold;
 }
 
 h2 {
-  color: #1a1a3d; /* Azul escuro para combinar com tema elegante */
+  color: #1a1a3d;
+  /* Azul escuro para combinar com tema elegante */
   font-size: 36px;
   margin: 0;
 }
@@ -141,13 +143,15 @@ h2 {
 }
 
 .lista .preco {
-  color: #d67a0c; /* Cor de destaque para o preço */
+  color: #d67a0c;
+  /* Cor de destaque para o preço */
   font-weight: bold;
 }
 
 .lista-presentes p {
   text-align: justify;
-  color: #333; /* Cor escura para fácil leitura */
+  color: #333;
+  /* Cor escura para fácil leitura */
   margin: 0;
   font-weight: normal;
 }
@@ -164,7 +168,8 @@ h2 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.filtros label, .filtros input{
+.filtros label,
+.filtros input {
   margin: 5px 10px;
   padding: 0;
   text-align: left;
@@ -180,7 +185,8 @@ h2 {
 }
 
 .filtros button:hover {
-  background-color: #b96509; /* Escurecendo o botão ao passar o mouse */
+  background-color: #b96509;
+  /* Escurecendo o botão ao passar o mouse */
 }
 
 .filtros {
@@ -188,7 +194,8 @@ h2 {
   flex-direction: column;
 }
 
-.filtros select, .filtros input {
+.filtros select,
+.filtros input {
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #ddd;
@@ -218,72 +225,75 @@ h2 {
     margin-top: 40px;
   }
 
-.lista ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
+  .lista ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-.lista li {
-  color: #333;
-  font-size: 18px;
-  margin-bottom: 20px;
-  display: flex;
-  flex: 0 0 48%; /* Definindo a largura para aproximadamente metade da linha, com algum espaço */
-  align-items: center;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  background-color: #ffffff;
-  position: relative;
-  justify-content: space-between;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+  .lista li {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    flex: 0 0 48%;
+    /* Definindo a largura para aproximadamente metade da linha, com algum espaço */
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #ffffff;
+    position: relative;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
 
-.lista li:hover {
-  background-color: #f9f9f9;
-  transform: scale(1.02);
-}
+  .lista li:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.02);
+  }
 
-.lista img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+  .lista img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 
-.lista .nome {
-  flex: 1;
-  text-align: center;
-  color: #1a1a3d;
-}
+  .lista .nome {
+    flex: 1;
+    text-align: center;
+    color: #1a1a3d;
+  }
 
-.lista .preco {
-  color: #d67a0c; /* Cor de destaque para o preço */
-  font-weight: bold;
-}
+  .lista .preco {
+    color: #d67a0c;
+    /* Cor de destaque para o preço */
+    font-weight: bold;
+  }
 
 
-footer {
-  background-color: #1a1a3d;
-  color: white;
-  text-align: center;
-  padding: 6px 0;
-  width: 100%;
-  bottom: 0;
-}
+  footer {
+    background-color: #1a1a3d;
+    color: white;
+    text-align: center;
+    padding: 6px 0;
+    width: 100%;
+    bottom: 0;
+  }
 
-footer a {
-  color: white;
-  text-decoration: none;
-}
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
 
-footer a:hover {
-  text-decoration: underline;
+  footer a:hover {
+    text-decoration: underline;
+  }
 }
