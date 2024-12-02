@@ -101,6 +101,10 @@ h2 {
   margin: 0;
   width: 100%;
   max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .lista li {
@@ -128,7 +132,6 @@ h2 {
   width: 120px;
   height: 120px;
   object-fit: cover;
-  margin-right: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -232,10 +235,6 @@ h2 {
     position: relative;
     justify-content: space-between;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-
-  .lista img {
-    margin-bottom: 10px;
   }
 
   .lista .nome,
