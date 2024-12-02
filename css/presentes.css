@@ -229,8 +229,8 @@ h2 {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas com largura igual */
     gap: 16px; /* Espaçamento entre os itens */
   }
 
@@ -241,15 +241,13 @@ h2 {
     flex-direction: column; /* Organiza os elementos em coluna */
     align-items: center;
     justify-content: space-between;
-    width: 48%; /* Garante 2 itens por linha */
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     background-color: #ffffff;
-    position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 250px; /* Garantindo altura fixa */
+    height: 250px; /* Garantindo altura fixa para os itens */
     box-sizing: border-box;
   }
 
