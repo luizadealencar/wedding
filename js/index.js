@@ -1,5 +1,5 @@
 function countdown() {
-  const weddingDate = new Date('2025-12-06T00:00:00');
+  const weddingDate = new Date('2025-11-26T00:00:00');
   const currentDate = new Date();
 
   const totalSeconds = (weddingDate - currentDate) / 1000;
