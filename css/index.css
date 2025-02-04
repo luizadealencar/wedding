@@ -4,7 +4,7 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #000000;
+  background-color: #232323;
   color: white;
   text-align: center;
   overflow-x: hidden;
@@ -13,7 +13,6 @@ body {
 .container {
   position: relative;
   max-width: 100%;
-  margin-top: 40px;
   text-align: center;
   animation: fadeIn 1s ease-out;
 }
@@ -21,7 +20,6 @@ body {
 .names {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
 }
 
 .left-name,
@@ -50,10 +48,9 @@ body {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
 }
 
-#countdown > div {
+#countdown>div {
   margin: 5px;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -122,13 +119,8 @@ button:hover {
 }
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  background-color: #1a1a3d;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 100;
 }
 
 nav::before {
@@ -145,6 +137,7 @@ nav ul {
   align-items: center;
   margin: 0;
   padding: 0;
+  background-color: #a27b4f;
 }
 
 nav ul li a {
@@ -157,7 +150,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #0d1b2a;
+  background-color: #925138;
   color: #fff;
 }
 
@@ -184,8 +177,7 @@ nav ul li a:hover {
 
 .text,
 .rsvp {
-  background-color: #f0f0f0;
-  color: #0d1b2a;
+  background-color: #925138;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
@@ -214,15 +206,17 @@ nav ul li a:hover {
 .content:hover img {
   transform: scale(1.05);
 }
+iframe{
+  width: 940px;
+  height: 450px;
+  border: 0;
+}
 
 .content p {
   position: absolute;
   top: 50%;
-  /* Centralizar verticalmente */
   left: 50%;
-  /* Centralizar horizontalmente */
   transform: translate(-50%, -50%);
-  /* Ajuste para centralizar com precisão */
   font-size: 24px;
   font-weight: bold;
   color: white;
@@ -232,7 +226,6 @@ nav ul li a:hover {
   padding: 6px;
   text-align: justify;
   max-width: 600px;
-  /* Limitar a largura do texto */
 }
 
 .festa,
@@ -258,10 +251,10 @@ nav ul li a:hover {
   text-align: center;
   cursor: pointer;
   font-family: "Cormorant Garamond", serif;
-  border: 1px solid #0d1b2a;
+  border: 1px solid #a27b4f;
   border-radius: 5px;
   padding: 10px;
-  background-color: #1a1a3d;
+  background-color: #925138;
   transition: background-color 0.3s ease;
 }
 
@@ -281,20 +274,37 @@ nav ul li a:hover {
   text-align: center;
   cursor: pointer;
   font-family: "Cormorant Garamond", serif;
-  border: 1px solid #0d1b2a;
+  border: 1px solid #a27b4f;
   border-radius: 5px;
   padding: 10px;
-  background-color: #1a1a3d;
-  margin-top: 10px;
+  background-color: #232323;
   transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .botao-enviar:hover {
   background-color: #4cae4c;
 }
 
+.cores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.cores img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 footer {
-  background-color: #1a1a3d;
+  background-color: #a27b4f;
   color: white;
   text-align: center;
   padding: 6px 0;
@@ -303,6 +313,11 @@ footer {
 }
 
 footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.space {
   color: white;
   text-decoration: none;
 }
@@ -360,6 +375,21 @@ footer a:hover {
     margin-top: 5px;
   }
 
+  iframe{
+    width: 300px;
+    height: 200px;
+    border: 0;
+  }
+
+  .mapa-conteudo {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   #countdown {
     font-size: 15px;
     display: flex;
@@ -367,15 +397,11 @@ footer a:hover {
     margin-bottom: 10px;
   }
 
-  #countdown > div {
+  #countdown>div {
     margin: 5px;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
-  }
-
-  .container {
-    margin-top: 40px;
   }
 
   .container h1 {
@@ -397,9 +423,9 @@ footer a:hover {
     display: flex;
     align-items: center;
   }
+
   #home {
     font-size: 35px;
-    margin-top: 60px;
   }
 }
 
