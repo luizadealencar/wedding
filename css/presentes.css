@@ -4,15 +4,14 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #fafafa;
-  color: #333;
+  background-color: #232323;
+  color: #000000;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
   padding-top: 60px;
-  /* Adiciona um espaço no topo */
 }
 
 
@@ -21,7 +20,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #1a1a3d;
+  background-color: #a27b4f ;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 100;
 }
@@ -40,6 +39,7 @@ nav ul {
   align-items: center;
   margin: 0;
   padding: 0;
+  background-color: #a27b4f;
 }
 
 nav ul li a {
@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #0d1b2a;
+  background-color: #232323;
   color: #fff;
 }
 
@@ -72,14 +72,11 @@ nav ul li a:hover {
 }
 
 .container p {
-  color: #1a1a3d;
   margin: 0;
   font-weight: bold;
 }
 
 h2 {
-  color: #1a1a3d;
-  /* Azul escuro para combinar com tema elegante */
   font-size: 36px;
   margin: 0;
 }
@@ -94,7 +91,6 @@ h2 {
 .lista h4 {
   margin: 20px 0 10px 0;
   font-size: 28px;
-  color: #1a1a3d;
 }
 
 .lista ul {
@@ -108,7 +104,6 @@ h2 {
 }
 
 .lista li {
-  color: #333;
   font-size: 18px;
   margin-bottom: 20px;
   display: flex;
@@ -139,26 +134,20 @@ h2 {
 .lista .nome {
   flex: 1;
   text-align: center;
-  color: #1a1a3d;
 }
 
 .lista .preco {
-  color: #d67a0c;
-  /* Cor de destaque para o preço */
   font-weight: bold;
 }
 
 .lista-presentes p {
   text-align: justify;
-  color: #333;
-  /* Cor escura para fácil leitura */
   margin: 0;
   font-weight: normal;
 }
 
 .payment-info {
   margin-top: 20px;
-  color: #555;
 }
 
 .qr-code img {
@@ -182,11 +171,6 @@ h2 {
 
 .filtros button {
   transition: background-color 0.3s ease;
-}
-
-.filtros button:hover {
-  background-color: #b96509;
-  /* Escurecendo o botão ao passar o mouse */
 }
 
 .filtros {
@@ -214,7 +198,7 @@ h2 {
 }
 
 footer {
-  background-color: #1a1a3d;
+  background-color: #a27b4f ;
   color: white;
   text-align: center;
   width: 100%;
@@ -234,6 +218,12 @@ footer a:hover {
   body {
     align-items: flex-start;
     overflow-x: hidden;
+    padding-top:30px;
+  }
+
+  nav ul li a {
+    padding: 5px;
+    font-size: 12px;
   }
 
   .container {
@@ -251,7 +241,6 @@ footer a:hover {
   }
 
   .lista li {
-    color: #333;
     font-size: 18px;
     display: flex;
     flex-direction: column; /* Organiza os elementos em coluna */
@@ -267,7 +256,7 @@ footer a:hover {
   }
 
   .lista li:hover {
-    background-color: #f9f9f9;
+    background-color: #232323;
     transform: scale(1.02);
   }
 
@@ -282,12 +271,10 @@ footer a:hover {
   .lista .nome {
     flex: 1;
     text-align: center;
-    color: #1a1a3d;
     margin-top: 10px;
   }
 
   .lista .preco {
-    color: #d67a0c;
     font-weight: bold;
     margin-top: 5px;
   }
