@@ -97,10 +97,22 @@
       "link": "https://www.amazon.com.br/Assadeiras-Marinex-Pe%C3%A7as-Tampa-Vidro/dp/B082M6W4VX/ref=asc_df_B082M6W4VX/?tag=googleshopp06-20&linkCode=df0&hvadid=379698488541&hvpos=&hvnetw=g&hvrand=15523279066118406644&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9101040&hvtargid=pla-896953145889&psc=1&mcid=2cd9f06494cc33a3a441149ff664f158"
     },
     {
+      "nome": "Ajude a pagar o condomínio",
+      "imagem": "https://static.wixstatic.com/media/368834_918d77abd8be4569a1c57a724ce7993b~mv2.png/v1/fill/w_850,h_638,al_c,q_90/368834_918d77abd8be4569a1c57a724ce7993b~mv2.png",
+      "preco": "R$ 467,99",
+      "link": "https://shopee.com.br/Jogo-De-Panelas-7-Pe%C3%A7as-Turim-Tramontina-Panela-De-Pressao-i.359168917.16593466064?sp_atk=1075c391-fb54-4f07-9c38-e989e20273e9&xptdk=1075c391-fb54-4f07-9c38-e989e20273e9"
+    },
+    {
       "nome": "Jogo de Tempero",
       "imagem": "https://m.media-amazon.com/images/I/41mJsR26zyL.__AC_SX300_SY300_QL70_ML2_.jpg",
       "preco": "R$ 58,90",
       "link": "https://www.amazon.com.br/Porta-Temperos-Girat%C3%B3rio-Dosadora-Premium/dp/B0D5MT7FTC/ref=asc_df_B0D5MT7FTC/?tag=googleshopp06-20&linkCode=df0&hvadid=700534818900&hvpos=&hvnetw=g&hvrand=6735293088619660188&hvpone=&hvptwo=&hvqmt=&hvdev=m&hvdvcmdl=&hvlocint=&hvlocphy=9196955&hvtargid=pla-2318987134301&psc=1&mcid=46cc034033b83ff7ad9f6bc48ab2eeec"
+    },
+    {
+      "nome": "Jogar o buquê na sua direção",
+      "imagem": "https://lh5.googleusercontent.com/proxy/K_Qk6OZncZVaMXLX5z4QMVwjAhXfU2gEH1EXmGSabklJ5VWWJlwXA68I-cT05ODpCTtF8n1EMP1damSC3UpLVPPN40rWiChHgp3KVe3qAKVDwzjwIXe9ab2K2KkA1GGSotY83xU",
+      "preco": "R$ 13,90",
+      "link": "https://shopee.com.br/Mini-Mixer-El%C3%A9trico-Misturador-de-Bebidas-Batedor-21-5cm-i.1243759959.22998178521?sp_atk=faaab339-80e4-43af-9b80-59db3c12bdac&xptdk=faaab339-80e4-43af-9b80-59db3c12bdac"
     },
     {
       "nome": "Jogo de Sobremesa",
@@ -351,6 +363,12 @@
       "link": "https://www.amazon.com.br/Ferro-Passar-Mondial-F-32-2-Branco/dp/B076HD8CH8/ref=asc_df_B076HBGCFH/?tag=googleshopp00-20&linkCode=df0&hvadid=379773078479&hvpos=&hvnetw=g&hvrand=10582732190013767314&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-812087274451&psc=1&mcid=369d93591b353ac6a6f1541e68e821c2&th=1"
     },
     {
+      "nome": "Cobertor para o noivo estar coberto de razão",
+      "imagem": "https://img.freepik.com/fotos-premium/homem-internacional-encantado-negativo-sendo-coberto-em-um-cobertor-enquanto-esta-sentado-na-cama-e-espera-a-mensagem-de-renda_447912-2227.jpg",
+      "preco": "R$ 354,73",
+      "link": "https://shopee.com.br/Kit-Coberdrom-KING-03-Pe%C3%A7as-Edredom-Cobertor-Dupla-Face-Canelado-Denver-Manta-Quente-com-Fronhas-i.332040407.22991012941?sp_atk=cfb847ab-8152-4e51-ba86-e6ef34ef4fb3&xptdk=cfb847ab-8152-4e51-ba86-e6ef34ef4fb3"
+    },
+    {
       "nome": "Jogo de Lençol e Fronha para Cama Queen Casal",
       "imagem": "https://m.media-amazon.com/images/I/41jqx0BTnGL._AC_SX679_.jpg",
       "preco": "R$ 150,00",
@@ -361,6 +379,12 @@
       "imagem": "https://imgs.casasbahia.com.br/1566922171/1xg.jpg",
       "preco": "R$ 2599,90",
       "link": "https://www.casasbahia.com.br/smart-tv-samsung-55-polegadas-4k-wi-fi-tizen-crystal-uhd-un55du7700gxzd/p/1566922171?utm_source=GP_PLA&utm_medium=cpc&utm_campaign=gg_pmax_core_elte"
+    },
+    {
+      "nome": "Ajudar na lua de mel",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8W9P6CvuC1I3R5O2ETtfpLsEKPIopFPS4Rg&s",
+      "preco": "R$ 2485,00",
+      "link": "https://www.msccruzeiros.com.br/Booking?CruiseID=LX20251128SSZSSZ&Type=CROL&PriceCode=LXC01349BR5016PR&NewCruise=true&MacroCategory=INS&Category=IM2&src=31460CB53A534130999D1B1917EB6E77#/pricing"
     },
     {
       "nome": "Cama Box Queen",
@@ -401,10 +425,28 @@
   ],
   "escritorio": [
     {
+      "nome": "Deus tocou seu coração",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBC188qVOI-BCfRMNLyfqvb0glCQFdPHgxA&s",
+      "preco": "R$ 8920,00",
+      "link": "https://www.mercadolivre.com.br/guitarra-eletrica-classica-de-corte-duplo-gretsch-g5422tg-com-bigsby-laranja/p/MLB29806342#polycard_client=search-nordic&searchVariation=MLB29806342&wid=MLB3879248419&position=7&search_layout=grid&type=product&tracking_id=14563467-16c1-4ba0-ad31-71b2b1e9e3b7&sid=search"
+    },
+    {
       "nome": "Ar condicionado 2",
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/235610-800-800?v=638313479148200000&width=800&height=800&aspect=true",
       "preco": "R$ 2199,00",
       "link": "https://loja.electrolux.com.br/ar-condicionado-electrolux-color-adapt-9-000-btus-quente-frio--ui09r-ue09r-/p"
+    },
+    {
+      "nome": "Levar alguém que não foi convidado",
+      "imagem": "https://cdn0.casamentos.com.br/usr/2/3/9/2/cfb_2x_1363327.jpg",
+      "preco": "2489,00",
+      "link": "https://www.amazon.com.br/PC-GAMER-AMD-RYZEN-4600G/dp/B0CV4K2V5S/ref=asc_df_B0CV4K2V5S/?tag=googleshopp00-20&linkCode=df0&hvadid=709884378370&hvpos=&hvnetw=g&hvrand=12829587155674478690&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-2284439466224&psc=1&mcid=ab610fd37da33f14ab817a267356b323&gad_source=1"
+    },
+    {
+      "nome": "Primeiro lugar na fila do buffet",
+      "imagem": "https://media.istockphoto.com/id/936650012/pt/foto/people-in-line-for-self-serve-buffet-in-celebration-dinner.jpg?s=1024x1024&w=is&k=20&c=fqvsrbdTSE-F8KgS1xZlgM6bkH2DEHN7k0iRMueVnJw=",
+      "preco": "R$ 999,00",
+      "link": "https://shopee.com.br/Sof%C3%A1-Cama-Reclin%C3%A1vel-%C3%81ustria-Suede-Essencial-Estofados-i.1350864567.22697906113?sp_atk=0e281412-4720-4586-b125-dc0415920f2c&xptdk=0e281412-4720-4586-b125-dc0415920f2c"
     }
   ],
   "banheiro": [
@@ -455,6 +497,12 @@
       "imagem": "https://m.media-amazon.com/images/I/41Gle070WdL._AC_SX679_.jpg",
       "preco": "R$ 51,16",
       "link": "https://www.amazon.com.br/Lixeira-pedal-polipropileno-litros-preta/dp/B08YDGR7JK/ref=sr_1_8?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=6V5TUTU54IAG&dib=eyJ2IjoiMSJ9.I1PiRLW43Ul5MdJ652FoOaokXhzILDjjpBLhsTTGK_ckCxRCqp4KB4EUMfO4Lhb-MH7Sha0vmDyRQ92CKGzgMSn3TmXjzXNDygJ9rj3uDPrc8oVshc5O1wL-sSSntxbjX0BnzKd6v4A2iTsi_pmLuRHkOricacORsGgVQObNdvqoEHf3Q2h-5Axs3aFOe1BPnPg-g0nWc45GZEtSnrCqeCYnwYYiW0Adg9LpWdXkcq4.u3xjE6lmP64cFN8MDI1jTK1mSoTUzbNBdi4Q2qLmpCY&dib_tag=se&keywords=lixo+para+banheiro&qid=1722103287&s=home&sprefix=lixo+para+bannhierio%2Chome%2C288&sr=1-8"
+    },
+    {
+      "nome": "Taxa para a noiva não jogar o buquê na sua namorada",
+      "imagem": "https://marieeder.wordpress.com/wp-content/uploads/2011/02/vanessaejoaoii751.jpg",
+      "preco": "R$ 79,97",
+      "link": "https://shopee.com.br/Lixeira-Sensor-Autom%C3%A1tica-Inteligente-de-Banheiro-Cozinha-Escrit%C3%B3rio-16-Litros-i.1396179690.22393610673?sp_atk=885f4d44-b94f-450d-9cef-5f8617cab2ac&xptdk=885f4d44-b94f-450d-9cef-5f8617cab2ac"
     }
   ],
   "sala": [ 
@@ -477,6 +525,12 @@
       "link": "https://www.amazon.com.br/Kit-Capas-Almofadas-45x45-Minimalista/dp/B0CW8SWC1F/ref=asc_df_B0CW8SWC1F/?tag=googleshopp00-20&linkCode=df0&hvadid=710048990102&hvpos=&hvnetw=g&hvrand=2851932894801965672&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-2310926642395&psc=1&mcid=96fe6104e4aa3ad491fa90e71086248c&gad_source=1"
     },
     {
+      "nome": "Dei o MELHOR presente",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCwlzuHHaV1_kLpojCRIwWoy3HH9qr3mwM7Q&s",
+      "preco": "144,99",
+      "link": "https://shopee.com.br/Lumin%C3%A1ria-De-Teto-Pendente-Led-Moderna-Lustre-para-Corredor-Sala-Quarto-i.372762135.22793243077?sp_atk=908fb318-e5f7-4439-826f-2abfc4096665&xptdk=908fb318-e5f7-4439-826f-2abfc4096665"
+    },
+    {
       "nome": "Ventilador",
       "imagem": "https://m.media-amazon.com/images/I/71P9N-PPDfL._AC_SX679_.jpg",
       "preco": "R$ 219,90",
@@ -487,6 +541,12 @@
       "imagem": "https://imgs.casasbahia.com.br/15003651/1g.jpg",
       "preco": "R$ 141,01",
       "link": "https://www.casasbahia.com.br/aspirador-de-po-vertical-2-em-1-mondial-turbo-cycle-ap36-1100w-vermelho-15003643/p/15003651?utm_medium=cpc&utm_source=GP_PLA&IdSku=15003651&idLojista=10037&tipoLojista=1P&gclsrc=aw.ds&&utm_campaign=gg_pmax_core_elpo&gad_source=1&gbraid=0AAAAADtAamiGhQXO8Q_i50Nmed4rVQbhY&gclid=Cj0KCQjwu-63BhC9ARIsAMMTLXTU7NJ_yWIeak4qXZ_lozAx998LWa0nIxJKzGpPNAf5PhJ76OQZEaAaAiC2EALw_wcB"
+    },
+    {
+      "nome": "1 ano de corte de cabelo para o noivo",
+      "imagem": "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2018/11/15/5bedcf90501e4.jpeg",
+      "preco": "R$ 529,99",
+      "link": "https://shopee.com.br/Kit-2-Cadeiras-com-100-Mdf-Freij%C3%B3-Bege-Claro-J20-Dalla-Costa-i.1226105437.19699298259?sp_atk=e61675b2-2b10-4af8-9158-a821e1fc0cb5&xptdk=e61675b2-2b10-4af8-9158-a821e1fc0cb5"
     }
   ],
 "lavanderia": [
@@ -497,10 +557,22 @@
       "link": "https://www.brastemp.com.br/lavadora-brastemp-10kg-titanium-com-smart-sensor-tira-manchas-pro-e-motor-inverter-bnf10as/p?idsku=326124818&gad_source=1&gbraid=0AAAAADJ0Bqpp2VjUqe58nXzfgYPoopZcp&gclid=CjwKCAjw0t63BhAUEiwA5xP54ZSl8c9p0y8Ut8iflNuXVr23oJGui1M0O-5AD0JGCa_NL68fs4Wo8RoC69QQAvD_BwE"
     },
     {
+      "nome": "Só pra dizer que não dei nada",
+      "imagem": "https://noticiasdatv.uol.com.br/media/_versions/everybody-hates-chris-julius-dia-dos-pais_fixed_large.jpg",
+      "preco": "R$ 84,99",
+      "link": "https://shopee.com.br/Escova-De-Limpeza-9-Em-1-Recarregav%C3%A9l-El%C3%A9trica-Girat%C3%B3ria-Com-Cabo-Alongador-i.1041517511.23093495011?sp_atk=8f5355b0-5c02-439c-86da-bfa97e1412ba&xptdk=8f5355b0-5c02-439c-86da-bfa97e1412ba"
+    },
+    {
       "nome": "Varal",
       "imagem": "https://m.media-amazon.com/images/I/51ICp3kFuaL._AC_SX679_.jpg",
       "preco": "R$ 78,98",
       "link": "https://www.amazon.com.br/Varal-Ch%C3%A3o-Dobr%C3%A1vel-Andares-Inox/dp/B01C3O0EBK/ref=asc_df_B01C3O0EBK/?tag=googleshopp00-20&linkCode=df0&hvadid=709968340963&hvpos=&hvnetw=g&hvrand=17956923848443674412&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198492&hvtargid=pla-2244899152216&psc=1&mcid=8977495b0e1a34eb938d74b4b25cd01a&gad_source=4"
+    },
+    {
+      "nome": "Cota para perguntar quando vem os filhos",
+      "imagem": "https://pbs.twimg.com/profile_images/1022133386008256515/KiQXllvu_400x400.jpg",
+      "preco": "R$ 200,99",
+      "link": "https://shopee.com.br/Vetrolar-Kit-Porta-Amaciante-Sab%C3%A3o-em-P%C3%B3-Alvejante-Sab%C3%A3o-Liquido-3-Litros-4-Pe%C3%A7as-Com-Tampa-Al%C3%A7a-e-Torneira-copo-dosador-i.446371827.16981831647?sp_atk=50a39a62-6b3e-46e5-8c7c-42c36cb75857&xptdk=50a39a62-6b3e-46e5-8c7c-42c36cb75857"
     }
   ]
 }
